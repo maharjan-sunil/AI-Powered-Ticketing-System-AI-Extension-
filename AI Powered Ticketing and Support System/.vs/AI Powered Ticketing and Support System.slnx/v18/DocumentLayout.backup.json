@@ -1,0 +1,95 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Sunil\\Desktop\\.NET \u0026 AZURE Interview Preparation\\AI\\AI Powered Ticketing and Support System\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{8E8C3401-6CE0-ABFB-3CB2-5BA03652474E}|AI Powered Ticketing and Support System.csproj|c:\\users\\sunil\\desktop\\.net \u0026 azure interview preparation\\ai\\ai powered ticketing and support system\\controllers\\documentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8E8C3401-6CE0-ABFB-3CB2-5BA03652474E}|AI Powered Ticketing and Support System.csproj|solutionrelative:controllers\\documentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8E8C3401-6CE0-ABFB-3CB2-5BA03652474E}|AI Powered Ticketing and Support System.csproj|c:\\users\\sunil\\desktop\\.net \u0026 azure interview preparation\\ai\\ai powered ticketing and support system\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8E8C3401-6CE0-ABFB-3CB2-5BA03652474E}|AI Powered Ticketing and Support System.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8E8C3401-6CE0-ABFB-3CB2-5BA03652474E}|AI Powered Ticketing and Support System.csproj|c:\\users\\sunil\\desktop\\.net \u0026 azure interview preparation\\ai\\ai powered ticketing and support system\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{8E8C3401-6CE0-ABFB-3CB2-5BA03652474E}|AI Powered Ticketing and Support System.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8E8C3401-6CE0-ABFB-3CB2-5BA03652474E}|AI Powered Ticketing and Support System.csproj|c:\\users\\sunil\\desktop\\.net \u0026 azure interview preparation\\ai\\ai powered ticketing and support system\\controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8E8C3401-6CE0-ABFB-3CB2-5BA03652474E}|AI Powered Ticketing and Support System.csproj|solutionrelative:controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Sunil\\Desktop\\.NET \u0026 AZURE Interview Preparation\\AI\\AI Powered Ticketing and Support System\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\Sunil\\Desktop\\.NET \u0026 AZURE Interview Preparation\\AI\\AI Powered Ticketing and Support System\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAACcAAAAAAAAAAAAAAAsAAAA0AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-13T21:21:36.314Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\Sunil\\Desktop\\.NET \u0026 AZURE Interview Preparation\\AI\\AI Powered Ticketing and Support System\\appsettings.json",
+              "RelativeDocumentMoniker": "appsettings.json",
+              "ToolTip": "C:\\Users\\Sunil\\Desktop\\.NET \u0026 AZURE Interview Preparation\\AI\\AI Powered Ticketing and Support System\\appsettings.json",
+              "RelativeToolTip": "appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-10-13T21:39:37.657Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "DocumentController.cs",
+              "DocumentMoniker": "C:\\Users\\Sunil\\Desktop\\.NET \u0026 AZURE Interview Preparation\\AI\\AI Powered Ticketing and Support System\\Controllers\\DocumentController.cs",
+              "RelativeDocumentMoniker": "Controllers\\DocumentController.cs",
+              "ToolTip": "C:\\Users\\Sunil\\Desktop\\.NET \u0026 AZURE Interview Preparation\\AI\\AI Powered Ticketing and Support System\\Controllers\\DocumentController.cs",
+              "RelativeToolTip": "Controllers\\DocumentController.cs",
+              "ViewState": "AgIAABUAAACAmZmZmZkwwCUAAABDAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-13T21:27:00.82Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "WeatherForecastController.cs",
+              "DocumentMoniker": "C:\\Users\\Sunil\\Desktop\\.NET \u0026 AZURE Interview Preparation\\AI\\AI Powered Ticketing and Support System\\Controllers\\WeatherForecastController.cs",
+              "RelativeDocumentMoniker": "Controllers\\WeatherForecastController.cs",
+              "ToolTip": "C:\\Users\\Sunil\\Desktop\\.NET \u0026 AZURE Interview Preparation\\AI\\AI Powered Ticketing and Support System\\Controllers\\WeatherForecastController.cs",
+              "RelativeToolTip": "Controllers\\WeatherForecastController.cs",
+              "ViewState": "AgIAAAYAAACAZmZmZmYkwA8AAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-13T21:26:41.857Z"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{e1b7d1f8-9b3c-49b1-8f4f-bfc63a88835d}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

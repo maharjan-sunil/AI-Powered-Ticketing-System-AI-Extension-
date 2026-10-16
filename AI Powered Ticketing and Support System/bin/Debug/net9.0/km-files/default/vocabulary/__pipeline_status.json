@@ -1,0 +1,821 @@
+{
+  "index": "default",
+  "document_id": "vocabulary",
+  "execution_id": "677c696b428b4caa89cbc1c757c4b986",
+  "steps": [
+    "extract",
+    "partition",
+    "gen_embeddings",
+    "save_records"
+  ],
+  "remaining_steps": [],
+  "completed_steps": [
+    "extract",
+    "partition",
+    "gen_embeddings",
+    "save_records"
+  ],
+  "tags": {},
+  "creation": "2026-10-13T21:51:01.0588851+00:00",
+  "last_update": "2026-10-13T21:51:28.7435235+00:00",
+  "files": [
+    {
+      "id": "edd35a73f9174bc5b04bb4070ca5725a",
+      "name": "vocabulary.pdf",
+      "size": 451604,
+      "mime_type": "application/pdf",
+      "artifact_type": "Undefined",
+      "partition_number": 0,
+      "section_number": 0,
+      "tags": {},
+      "processed_by": [
+        "extract"
+      ],
+      "generated_files": {
+        "vocabulary.pdf.extract.txt": {
+          "id": "63a3206b45e74a1bad7284137a8c2aa9",
+          "name": "vocabulary.pdf.extract.txt",
+          "size": 32126,
+          "mime_type": "text/plain",
+          "artifact_type": "ExtractedText",
+          "partition_number": 0,
+          "section_number": 0,
+          "tags": {},
+          "parent_id": "edd35a73f9174bc5b04bb4070ca5725a",
+          "source_partition_id": "",
+          "content_sha256": "",
+          "processed_by": [
+            "extract",
+            "partition"
+          ]
+        },
+        "vocabulary.pdf.extract.json": {
+          "id": "cb099a1612ee4b0985f779b02c2b5881",
+          "name": "vocabulary.pdf.extract.json",
+          "size": 32126,
+          "mime_type": "text/plain",
+          "artifact_type": "ExtractedContent",
+          "partition_number": 0,
+          "section_number": 0,
+          "tags": {},
+          "parent_id": "edd35a73f9174bc5b04bb4070ca5725a",
+          "source_partition_id": "",
+          "content_sha256": "",
+          "processed_by": [
+            "extract"
+          ]
+        },
+        "vocabulary.pdf.partition.0.txt": {
+          "id": "76aa6c0fabab424c8f656300a19b1843",
+          "name": "vocabulary.pdf.partition.0.txt",
+          "size": 1682,
+          "mime_type": "text/plain",
+          "artifact_type": "TextPartition",
+          "partition_number": 0,
+          "section_number": 0,
+          "tags": {},
+          "parent_id": "edd35a73f9174bc5b04bb4070ca5725a",
+          "source_partition_id": "",
+          "content_sha256": "e9b48d6a057bf87dcdafaeb199efae09ce4db9ca4a77eea19f49e3d3654f364a",
+          "processed_by": [
+            "partition",
+            "gen_embeddings/GeminiEmbeddingGenerator/__"
+          ]
+        },
+        "vocabulary.pdf.partition.1.txt": {
+          "id": "fb5db79edfaf4d09979bb2cc60c966db",
+          "name": "vocabulary.pdf.partition.1.txt",
+          "size": 1626,
+          "mime_type": "text/plain",
+          "artifact_type": "TextPartition",
+          "partition_number": 1,
+          "section_number": 0,
+          "tags": {},
+          "parent_id": "edd35a73f9174bc5b04bb4070ca5725a",
+          "source_partition_id": "",
+          "content_sha256": "f8bed9f0ea9642a7bf970eed932033446a7e461d98280a4ae7e0ec026c8103c4",
+          "processed_by": [
+            "partition",
+            "gen_embeddings/GeminiEmbeddingGenerator/__"
+          ]
+        },
+        "vocabulary.pdf.partition.2.txt": {
+          "id": "83312c8db6ee497e8d2648a5d3628964",
+          "name": "vocabulary.pdf.partition.2.txt",
+          "size": 1535,
+          "mime_type": "text/plain",
+          "artifact_type": "TextPartition",
+          "partition_number": 2,
+          "section_number": 0,
+          "tags": {},
+          "parent_id": "edd35a73f9174bc5b04bb4070ca5725a",
+          "source_partition_id": "",
+          "content_sha256": "614636ab2de5ecdc4d8b22a390a036cf47c4ded75ce5e1b6ad6c8f72a1d9f971",
+          "processed_by": [
+            "partition",
+            "gen_embeddings/GeminiEmbeddingGenerator/__"
+          ]
+        },
+        "vocabulary.pdf.partition.3.txt": {
+          "id": "db5a94f49e434f92ae15953618acdad6",
+          "name": "vocabulary.pdf.partition.3.txt",
+          "size": 1558,
+          "mime_type": "text/plain",
+          "artifact_type": "TextPartition",
+          "partition_number": 3,
+          "section_number": 0,
+          "tags": {},
+          "parent_id": "edd35a73f9174bc5b04bb4070ca5725a",
+          "source_partition_id": "",
+          "content_sha256": "4668d7e2d9313c480067899bd1b17901ecbaa650f77d4bbe846dbd1f1dd6c619",
+          "processed_by": [
+            "partition",
+            "gen_embeddings/GeminiEmbeddingGenerator/__"
+          ]
+        },
+        "vocabulary.pdf.partition.4.txt": {
+          "id": "2b5b7820a4ea4eca8ab15ee96e21175c",
+          "name": "vocabulary.pdf.partition.4.txt",
+          "size": 1645,
+          "mime_type": "text/plain",
+          "artifact_type": "TextPartition",
+          "partition_number": 4,
+          "section_number": 0,
+          "tags": {},
+          "parent_id": "edd35a73f9174bc5b04bb4070ca5725a",
+          "source_partition_id": "",
+          "content_sha256": "ad9054684560f0099c147b46ea5dafc6bcf3ceefe0d3b476506f92a2cbdedb64",
+          "processed_by": [
+            "partition",
+            "gen_embeddings/GeminiEmbeddingGenerator/__"
+          ]
+        },
+        "vocabulary.pdf.partition.5.txt": {
+          "id": "b10e14e46b304222944a7d637094b72b",
+          "name": "vocabulary.pdf.partition.5.txt",
+          "size": 1612,
+          "mime_type": "text/plain",
+          "artifact_type": "TextPartition",
+          "partition_number": 5,
+          "section_number": 0,
+          "tags": {},
+          "parent_id": "edd35a73f9174bc5b04bb4070ca5725a",
+          "source_partition_id": "",
+          "content_sha256": "b52d8bc8249eb5b63c0b4b3d825bbdf4dffe3b21f57bafc137748e4257626f82",
+          "processed_by": [
+            "partition",
+            "gen_embeddings/GeminiEmbeddingGenerator/__"
+          ]
+        },
+        "vocabulary.pdf.partition.6.txt": {
+          "id": "c5b13984b03c44bd9aeff0034c0253ca",
+          "name": "vocabulary.pdf.partition.6.txt",
+          "size": 1618,
+          "mime_type": "text/plain",
+          "artifact_type": "TextPartition",
+          "partition_number": 6,
+          "section_number": 0,
+          "tags": {},
+          "parent_id": "edd35a73f9174bc5b04bb4070ca5725a",
+          "source_partition_id": "",
+          "content_sha256": "f74c90a498d8df77437ffe25e707328a097a6aae52eae0dab8a726e964dec270",
+          "processed_by": [
+            "partition",
+            "gen_embeddings/GeminiEmbeddingGenerator/__"
+          ]
+        },
+        "vocabulary.pdf.partition.7.txt": {
+          "id": "e68c028eba734cb386f139e10ff6daec",
+          "name": "vocabulary.pdf.partition.7.txt",
+          "size": 1794,
+          "mime_type": "text/plain",
+          "artifact_type": "TextPartition",
+          "partition_number": 7,
+          "section_number": 0,
+          "tags": {},
+          "parent_id": "edd35a73f9174bc5b04bb4070ca5725a",
+          "source_partition_id": "",
+          "content_sha256": "f1297ad1247f20142ea98cb02ad26c4c617c9759652e4e8f5a805c021f1955ce",
+          "processed_by": [
+            "partition",
+            "gen_embeddings/GeminiEmbeddingGenerator/__"
+          ]
+        },
+        "vocabulary.pdf.partition.8.txt": {
+          "id": "abbd06d9adf64589a2678749160fffde",
+          "name": "vocabulary.pdf.partition.8.txt",
+          "size": 1771,
+          "mime_type": "text/plain",
+          "artifact_type": "TextPartition",
+          "partition_number": 8,
+          "section_number": 0,
+          "tags": {},
+          "parent_id": "edd35a73f9174bc5b04bb4070ca5725a",
+          "source_partition_id": "",
+          "content_sha256": "a556de9d17add349e5ca0b8d28c6ac1cab32f5b98c744ccd33b6ba10c349f7e1",
+          "processed_by": [
+            "partition",
+            "gen_embeddings/GeminiEmbeddingGenerator/__"
+          ]
+        },
+        "vocabulary.pdf.partition.9.txt": {
+          "id": "1f15eaccbe8d4a3480e6b0b4fb5e2ffd",
+          "name": "vocabulary.pdf.partition.9.txt",
+          "size": 1661,
+          "mime_type": "text/plain",
+          "artifact_type": "TextPartition",
+          "partition_number": 9,
+          "section_number": 0,
+          "tags": {},
+          "parent_id": "edd35a73f9174bc5b04bb4070ca5725a",
+          "source_partition_id": "",
+          "content_sha256": "37bd4aff4c24c47e00e394b312b018cc301736a92ef9dde62da530cc0d2e2b1f",
+          "processed_by": [
+            "partition",
+            "gen_embeddings/GeminiEmbeddingGenerator/__"
+          ]
+        },
+        "vocabulary.pdf.partition.10.txt": {
+          "id": "2ecd6381be7b4668bf7146941eb35597",
+          "name": "vocabulary.pdf.partition.10.txt",
+          "size": 1631,
+          "mime_type": "text/plain",
+          "artifact_type": "TextPartition",
+          "partition_number": 10,
+          "section_number": 0,
+          "tags": {},
+          "parent_id": "edd35a73f9174bc5b04bb4070ca5725a",
+          "source_partition_id": "",
+          "content_sha256": "1b3defd107eefd621a6262919ec2c590afaa6f9c8626f1558199ecfac080a833",
+          "processed_by": [
+            "partition",
+            "gen_embeddings/GeminiEmbeddingGenerator/__"
+          ]
+        },
+        "vocabulary.pdf.partition.11.txt": {
+          "id": "df389970da7d4f4a924f9988cd885cb3",
+          "name": "vocabulary.pdf.partition.11.txt",
+          "size": 1712,
+          "mime_type": "text/plain",
+          "artifact_type": "TextPartition",
+          "partition_number": 11,
+          "section_number": 0,
+          "tags": {},
+          "parent_id": "edd35a73f9174bc5b04bb4070ca5725a",
+          "source_partition_id": "",
+          "content_sha256": "dde54a6002f04ed7c4bd6aead66e5e687cec6872b6cdea844baf45ff9adf9a85",
+          "processed_by": [
+            "partition",
+            "gen_embeddings/GeminiEmbeddingGenerator/__"
+          ]
+        },
+        "vocabulary.pdf.partition.12.txt": {
+          "id": "bbbd4b2c87f640e5be3e7ed9b21ea255",
+          "name": "vocabulary.pdf.partition.12.txt",
+          "size": 1721,
+          "mime_type": "text/plain",
+          "artifact_type": "TextPartition",
+          "partition_number": 12,
+          "section_number": 0,
+          "tags": {},
+          "parent_id": "edd35a73f9174bc5b04bb4070ca5725a",
+          "source_partition_id": "",
+          "content_sha256": "8e25d5adccbb39e5b45c9d784905c62f1646d163a1a1a004eaca44b53a2e1a0a",
+          "processed_by": [
+            "partition",
+            "gen_embeddings/GeminiEmbeddingGenerator/__"
+          ]
+        },
+        "vocabulary.pdf.partition.13.txt": {
+          "id": "b9b9c4a365d24987b68ab83b939ec83a",
+          "name": "vocabulary.pdf.partition.13.txt",
+          "size": 1799,
+          "mime_type": "text/plain",
+          "artifact_type": "TextPartition",
+          "partition_number": 13,
+          "section_number": 0,
+          "tags": {},
+          "parent_id": "edd35a73f9174bc5b04bb4070ca5725a",
+          "source_partition_id": "",
+          "content_sha256": "0fe23be4807a2fa9b0a13a8bada5a48d0d8b9fed11ee6bf5a9152b6ca8284580",
+          "processed_by": [
+            "partition",
+            "gen_embeddings/GeminiEmbeddingGenerator/__"
+          ]
+        },
+        "vocabulary.pdf.partition.14.txt": {
+          "id": "a647ccf554924078bfefaa6b42c20eda",
+          "name": "vocabulary.pdf.partition.14.txt",
+          "size": 1776,
+          "mime_type": "text/plain",
+          "artifact_type": "TextPartition",
+          "partition_number": 14,
+          "section_number": 0,
+          "tags": {},
+          "parent_id": "edd35a73f9174bc5b04bb4070ca5725a",
+          "source_partition_id": "",
+          "content_sha256": "5d5e9da6273947fa88e1fcc02cb6cac816ae827d240ba083a830c56229ee4dbe",
+          "processed_by": [
+            "partition",
+            "gen_embeddings/GeminiEmbeddingGenerator/__"
+          ]
+        },
+        "vocabulary.pdf.partition.15.txt": {
+          "id": "0556f53ad0e24833b4b9494166c42d26",
+          "name": "vocabulary.pdf.partition.15.txt",
+          "size": 1674,
+          "mime_type": "text/plain",
+          "artifact_type": "TextPartition",
+          "partition_number": 15,
+          "section_number": 0,
+          "tags": {},
+          "parent_id": "edd35a73f9174bc5b04bb4070ca5725a",
+          "source_partition_id": "",
+          "content_sha256": "eddb38b7b51feffd385437e0c57ad86c531850a59905a033a5153d30d5a0cb3d",
+          "processed_by": [
+            "partition",
+            "gen_embeddings/GeminiEmbeddingGenerator/__"
+          ]
+        },
+        "vocabulary.pdf.partition.16.txt": {
+          "id": "a662234d33694cd79a6a271b4fd8593f",
+          "name": "vocabulary.pdf.partition.16.txt",
+          "size": 1842,
+          "mime_type": "text/plain",
+          "artifact_type": "TextPartition",
+          "partition_number": 16,
+          "section_number": 0,
+          "tags": {},
+          "parent_id": "edd35a73f9174bc5b04bb4070ca5725a",
+          "source_partition_id": "",
+          "content_sha256": "31ac5e435a5bbf1c9e8bb1c3fdb91ae93bbfb55097d596bfe870476efe3b7569",
+          "processed_by": [
+            "partition",
+            "gen_embeddings/GeminiEmbeddingGenerator/__"
+          ]
+        },
+        "vocabulary.pdf.partition.17.txt": {
+          "id": "4021b819adce4c47a1a327b75fc829f6",
+          "name": "vocabulary.pdf.partition.17.txt",
+          "size": 1726,
+          "mime_type": "text/plain",
+          "artifact_type": "TextPartition",
+          "partition_number": 17,
+          "section_number": 0,
+          "tags": {},
+          "parent_id": "edd35a73f9174bc5b04bb4070ca5725a",
+          "source_partition_id": "",
+          "content_sha256": "241765829290ad9b9f8540e0a23d12626af76cc0d8e164cb7c6cc555411e9dfa",
+          "processed_by": [
+            "partition",
+            "gen_embeddings/GeminiEmbeddingGenerator/__"
+          ]
+        },
+        "vocabulary.pdf.partition.18.txt": {
+          "id": "e62ecfa4888b402fbe0c471eabe2e4c0",
+          "name": "vocabulary.pdf.partition.18.txt",
+          "size": 1656,
+          "mime_type": "text/plain",
+          "artifact_type": "TextPartition",
+          "partition_number": 18,
+          "section_number": 0,
+          "tags": {},
+          "parent_id": "edd35a73f9174bc5b04bb4070ca5725a",
+          "source_partition_id": "",
+          "content_sha256": "0047a54422cace32cc2bc50236c131bd67a0ea580bd7dbb320773c6228c861a8",
+          "processed_by": [
+            "partition",
+            "gen_embeddings/GeminiEmbeddingGenerator/__"
+          ]
+        },
+        "vocabulary.pdf.partition.19.txt": {
+          "id": "8cac790433814fd48ad805f6486c806c",
+          "name": "vocabulary.pdf.partition.19.txt",
+          "size": 1679,
+          "mime_type": "text/plain",
+          "artifact_type": "TextPartition",
+          "partition_number": 19,
+          "section_number": 0,
+          "tags": {},
+          "parent_id": "edd35a73f9174bc5b04bb4070ca5725a",
+          "source_partition_id": "",
+          "content_sha256": "a7877faed968a16a89b3ec9c2d426a1f48a17fae2fbea167fa242b5b6894180a",
+          "processed_by": [
+            "partition",
+            "gen_embeddings/GeminiEmbeddingGenerator/__"
+          ]
+        },
+        "vocabulary.pdf.partition.20.txt": {
+          "id": "5d2c7389eb824593a59d55567d815dd3",
+          "name": "vocabulary.pdf.partition.20.txt",
+          "size": 1685,
+          "mime_type": "text/plain",
+          "artifact_type": "TextPartition",
+          "partition_number": 20,
+          "section_number": 0,
+          "tags": {},
+          "parent_id": "edd35a73f9174bc5b04bb4070ca5725a",
+          "source_partition_id": "",
+          "content_sha256": "ce8762e699626f54c3dc867ab4bba946b1cd47d6e8fd88082d3869224cefac0c",
+          "processed_by": [
+            "partition",
+            "gen_embeddings/GeminiEmbeddingGenerator/__"
+          ]
+        },
+        "vocabulary.pdf.partition.21.txt": {
+          "id": "e733c13a37e446d6b0144a5aee47b39f",
+          "name": "vocabulary.pdf.partition.21.txt",
+          "size": 287,
+          "mime_type": "text/plain",
+          "artifact_type": "TextPartition",
+          "partition_number": 21,
+          "section_number": 0,
+          "tags": {},
+          "parent_id": "edd35a73f9174bc5b04bb4070ca5725a",
+          "source_partition_id": "",
+          "content_sha256": "6a7994f60dcc57810243fcb1f06c064bba06f9c3086bc9c30da5c6c34c1eabc8",
+          "processed_by": [
+            "partition",
+            "gen_embeddings/GeminiEmbeddingGenerator/__"
+          ]
+        },
+        "vocabulary.pdf.partition.0.txt.GeminiEmbeddingGenerator.__.text_embedding": {
+          "id": "66c7f7d2aa0440e5b2a11ab6e943e949",
+          "name": "vocabulary.pdf.partition.0.txt.GeminiEmbeddingGenerator.__.text_embedding",
+          "size": 39395,
+          "mime_type": "float[]",
+          "artifact_type": "TextEmbeddingVector",
+          "partition_number": 0,
+          "section_number": 0,
+          "tags": {},
+          "parent_id": "edd35a73f9174bc5b04bb4070ca5725a",
+          "source_partition_id": "76aa6c0fabab424c8f656300a19b1843",
+          "content_sha256": "",
+          "processed_by": [
+            "gen_embeddings",
+            "save_records"
+          ]
+        },
+        "vocabulary.pdf.partition.1.txt.GeminiEmbeddingGenerator.__.text_embedding": {
+          "id": "ff88fa130efa42618944cfd09ac5c328",
+          "name": "vocabulary.pdf.partition.1.txt.GeminiEmbeddingGenerator.__.text_embedding",
+          "size": 39464,
+          "mime_type": "float[]",
+          "artifact_type": "TextEmbeddingVector",
+          "partition_number": 1,
+          "section_number": 0,
+          "tags": {},
+          "parent_id": "edd35a73f9174bc5b04bb4070ca5725a",
+          "source_partition_id": "fb5db79edfaf4d09979bb2cc60c966db",
+          "content_sha256": "",
+          "processed_by": [
+            "gen_embeddings",
+            "save_records"
+          ]
+        },
+        "vocabulary.pdf.partition.2.txt.GeminiEmbeddingGenerator.__.text_embedding": {
+          "id": "5f12b0984a93426cb9ccfe4ed3115cfc",
+          "name": "vocabulary.pdf.partition.2.txt.GeminiEmbeddingGenerator.__.text_embedding",
+          "size": 39371,
+          "mime_type": "float[]",
+          "artifact_type": "TextEmbeddingVector",
+          "partition_number": 2,
+          "section_number": 0,
+          "tags": {},
+          "parent_id": "edd35a73f9174bc5b04bb4070ca5725a",
+          "source_partition_id": "83312c8db6ee497e8d2648a5d3628964",
+          "content_sha256": "",
+          "processed_by": [
+            "gen_embeddings",
+            "save_records"
+          ]
+        },
+        "vocabulary.pdf.partition.3.txt.GeminiEmbeddingGenerator.__.text_embedding": {
+          "id": "a2819bc0a0ac4b45b27441e9f4967a94",
+          "name": "vocabulary.pdf.partition.3.txt.GeminiEmbeddingGenerator.__.text_embedding",
+          "size": 39439,
+          "mime_type": "float[]",
+          "artifact_type": "TextEmbeddingVector",
+          "partition_number": 3,
+          "section_number": 0,
+          "tags": {},
+          "parent_id": "edd35a73f9174bc5b04bb4070ca5725a",
+          "source_partition_id": "db5a94f49e434f92ae15953618acdad6",
+          "content_sha256": "",
+          "processed_by": [
+            "gen_embeddings",
+            "save_records"
+          ]
+        },
+        "vocabulary.pdf.partition.4.txt.GeminiEmbeddingGenerator.__.text_embedding": {
+          "id": "a5d29441f7914f84a9de2ab3cb487de0",
+          "name": "vocabulary.pdf.partition.4.txt.GeminiEmbeddingGenerator.__.text_embedding",
+          "size": 39410,
+          "mime_type": "float[]",
+          "artifact_type": "TextEmbeddingVector",
+          "partition_number": 4,
+          "section_number": 0,
+          "tags": {},
+          "parent_id": "edd35a73f9174bc5b04bb4070ca5725a",
+          "source_partition_id": "2b5b7820a4ea4eca8ab15ee96e21175c",
+          "content_sha256": "",
+          "processed_by": [
+            "gen_embeddings",
+            "save_records"
+          ]
+        },
+        "vocabulary.pdf.partition.5.txt.GeminiEmbeddingGenerator.__.text_embedding": {
+          "id": "768c725da49b497dacbca86b97672556",
+          "name": "vocabulary.pdf.partition.5.txt.GeminiEmbeddingGenerator.__.text_embedding",
+          "size": 39406,
+          "mime_type": "float[]",
+          "artifact_type": "TextEmbeddingVector",
+          "partition_number": 5,
+          "section_number": 0,
+          "tags": {},
+          "parent_id": "edd35a73f9174bc5b04bb4070ca5725a",
+          "source_partition_id": "b10e14e46b304222944a7d637094b72b",
+          "content_sha256": "",
+          "processed_by": [
+            "gen_embeddings",
+            "save_records"
+          ]
+        },
+        "vocabulary.pdf.partition.6.txt.GeminiEmbeddingGenerator.__.text_embedding": {
+          "id": "f8bd43e5121647c49cde77dc3072c459",
+          "name": "vocabulary.pdf.partition.6.txt.GeminiEmbeddingGenerator.__.text_embedding",
+          "size": 39370,
+          "mime_type": "float[]",
+          "artifact_type": "TextEmbeddingVector",
+          "partition_number": 6,
+          "section_number": 0,
+          "tags": {},
+          "parent_id": "edd35a73f9174bc5b04bb4070ca5725a",
+          "source_partition_id": "c5b13984b03c44bd9aeff0034c0253ca",
+          "content_sha256": "",
+          "processed_by": [
+            "gen_embeddings",
+            "save_records"
+          ]
+        },
+        "vocabulary.pdf.partition.7.txt.GeminiEmbeddingGenerator.__.text_embedding": {
+          "id": "3fd405ecd4384621985f102edc8e93db",
+          "name": "vocabulary.pdf.partition.7.txt.GeminiEmbeddingGenerator.__.text_embedding",
+          "size": 39309,
+          "mime_type": "float[]",
+          "artifact_type": "TextEmbeddingVector",
+          "partition_number": 7,
+          "section_number": 0,
+          "tags": {},
+          "parent_id": "edd35a73f9174bc5b04bb4070ca5725a",
+          "source_partition_id": "e68c028eba734cb386f139e10ff6daec",
+          "content_sha256": "",
+          "processed_by": [
+            "gen_embeddings",
+            "save_records"
+          ]
+        },
+        "vocabulary.pdf.partition.8.txt.GeminiEmbeddingGenerator.__.text_embedding": {
+          "id": "bd89fce3e145491aae8f255e9a8c9e30",
+          "name": "vocabulary.pdf.partition.8.txt.GeminiEmbeddingGenerator.__.text_embedding",
+          "size": 39331,
+          "mime_type": "float[]",
+          "artifact_type": "TextEmbeddingVector",
+          "partition_number": 8,
+          "section_number": 0,
+          "tags": {},
+          "parent_id": "edd35a73f9174bc5b04bb4070ca5725a",
+          "source_partition_id": "abbd06d9adf64589a2678749160fffde",
+          "content_sha256": "",
+          "processed_by": [
+            "gen_embeddings",
+            "save_records"
+          ]
+        },
+        "vocabulary.pdf.partition.9.txt.GeminiEmbeddingGenerator.__.text_embedding": {
+          "id": "f7675d308d5a47c8925516a0c9fa6aa1",
+          "name": "vocabulary.pdf.partition.9.txt.GeminiEmbeddingGenerator.__.text_embedding",
+          "size": 39326,
+          "mime_type": "float[]",
+          "artifact_type": "TextEmbeddingVector",
+          "partition_number": 9,
+          "section_number": 0,
+          "tags": {},
+          "parent_id": "edd35a73f9174bc5b04bb4070ca5725a",
+          "source_partition_id": "1f15eaccbe8d4a3480e6b0b4fb5e2ffd",
+          "content_sha256": "",
+          "processed_by": [
+            "gen_embeddings",
+            "save_records"
+          ]
+        },
+        "vocabulary.pdf.partition.10.txt.GeminiEmbeddingGenerator.__.text_embedding": {
+          "id": "c84f75126aa94dc3ba24b5da373f8553",
+          "name": "vocabulary.pdf.partition.10.txt.GeminiEmbeddingGenerator.__.text_embedding",
+          "size": 39379,
+          "mime_type": "float[]",
+          "artifact_type": "TextEmbeddingVector",
+          "partition_number": 10,
+          "section_number": 0,
+          "tags": {},
+          "parent_id": "edd35a73f9174bc5b04bb4070ca5725a",
+          "source_partition_id": "2ecd6381be7b4668bf7146941eb35597",
+          "content_sha256": "",
+          "processed_by": [
+            "gen_embeddings",
+            "save_records"
+          ]
+        },
+        "vocabulary.pdf.partition.11.txt.GeminiEmbeddingGenerator.__.text_embedding": {
+          "id": "d36de052bf7a4cc4b9dec2959fb2526d",
+          "name": "vocabulary.pdf.partition.11.txt.GeminiEmbeddingGenerator.__.text_embedding",
+          "size": 39392,
+          "mime_type": "float[]",
+          "artifact_type": "TextEmbeddingVector",
+          "partition_number": 11,
+          "section_number": 0,
+          "tags": {},
+          "parent_id": "edd35a73f9174bc5b04bb4070ca5725a",
+          "source_partition_id": "df389970da7d4f4a924f9988cd885cb3",
+          "content_sha256": "",
+          "processed_by": [
+            "gen_embeddings",
+            "save_records"
+          ]
+        },
+        "vocabulary.pdf.partition.12.txt.GeminiEmbeddingGenerator.__.text_embedding": {
+          "id": "728ef0cd7720434ab7194cda31d45171",
+          "name": "vocabulary.pdf.partition.12.txt.GeminiEmbeddingGenerator.__.text_embedding",
+          "size": 39380,
+          "mime_type": "float[]",
+          "artifact_type": "TextEmbeddingVector",
+          "partition_number": 12,
+          "section_number": 0,
+          "tags": {},
+          "parent_id": "edd35a73f9174bc5b04bb4070ca5725a",
+          "source_partition_id": "bbbd4b2c87f640e5be3e7ed9b21ea255",
+          "content_sha256": "",
+          "processed_by": [
+            "gen_embeddings",
+            "save_records"
+          ]
+        },
+        "vocabulary.pdf.partition.13.txt.GeminiEmbeddingGenerator.__.text_embedding": {
+          "id": "52d331d9e0294f4086e39b838fe1dc7c",
+          "name": "vocabulary.pdf.partition.13.txt.GeminiEmbeddingGenerator.__.text_embedding",
+          "size": 39333,
+          "mime_type": "float[]",
+          "artifact_type": "TextEmbeddingVector",
+          "partition_number": 13,
+          "section_number": 0,
+          "tags": {},
+          "parent_id": "edd35a73f9174bc5b04bb4070ca5725a",
+          "source_partition_id": "b9b9c4a365d24987b68ab83b939ec83a",
+          "content_sha256": "",
+          "processed_by": [
+            "gen_embeddings",
+            "save_records"
+          ]
+        },
+        "vocabulary.pdf.partition.14.txt.GeminiEmbeddingGenerator.__.text_embedding": {
+          "id": "19f637e15c97458eb218b4c822759660",
+          "name": "vocabulary.pdf.partition.14.txt.GeminiEmbeddingGenerator.__.text_embedding",
+          "size": 39363,
+          "mime_type": "float[]",
+          "artifact_type": "TextEmbeddingVector",
+          "partition_number": 14,
+          "section_number": 0,
+          "tags": {},
+          "parent_id": "edd35a73f9174bc5b04bb4070ca5725a",
+          "source_partition_id": "a647ccf554924078bfefaa6b42c20eda",
+          "content_sha256": "",
+          "processed_by": [
+            "gen_embeddings",
+            "save_records"
+          ]
+        },
+        "vocabulary.pdf.partition.15.txt.GeminiEmbeddingGenerator.__.text_embedding": {
+          "id": "a154392dbf874970af5cd5c9c921a0a4",
+          "name": "vocabulary.pdf.partition.15.txt.GeminiEmbeddingGenerator.__.text_embedding",
+          "size": 39357,
+          "mime_type": "float[]",
+          "artifact_type": "TextEmbeddingVector",
+          "partition_number": 15,
+          "section_number": 0,
+          "tags": {},
+          "parent_id": "edd35a73f9174bc5b04bb4070ca5725a",
+          "source_partition_id": "0556f53ad0e24833b4b9494166c42d26",
+          "content_sha256": "",
+          "processed_by": [
+            "gen_embeddings",
+            "save_records"
+          ]
+        },
+        "vocabulary.pdf.partition.16.txt.GeminiEmbeddingGenerator.__.text_embedding": {
+          "id": "eb157addae484aea8767c0e96b7e3bc1",
+          "name": "vocabulary.pdf.partition.16.txt.GeminiEmbeddingGenerator.__.text_embedding",
+          "size": 39341,
+          "mime_type": "float[]",
+          "artifact_type": "TextEmbeddingVector",
+          "partition_number": 16,
+          "section_number": 0,
+          "tags": {},
+          "parent_id": "edd35a73f9174bc5b04bb4070ca5725a",
+          "source_partition_id": "a662234d33694cd79a6a271b4fd8593f",
+          "content_sha256": "",
+          "processed_by": [
+            "gen_embeddings",
+            "save_records"
+          ]
+        },
+        "vocabulary.pdf.partition.17.txt.GeminiEmbeddingGenerator.__.text_embedding": {
+          "id": "f21d54d45cb4487a9d06426e7ce40e82",
+          "name": "vocabulary.pdf.partition.17.txt.GeminiEmbeddingGenerator.__.text_embedding",
+          "size": 39359,
+          "mime_type": "float[]",
+          "artifact_type": "TextEmbeddingVector",
+          "partition_number": 17,
+          "section_number": 0,
+          "tags": {},
+          "parent_id": "edd35a73f9174bc5b04bb4070ca5725a",
+          "source_partition_id": "4021b819adce4c47a1a327b75fc829f6",
+          "content_sha256": "",
+          "processed_by": [
+            "gen_embeddings",
+            "save_records"
+          ]
+        },
+        "vocabulary.pdf.partition.18.txt.GeminiEmbeddingGenerator.__.text_embedding": {
+          "id": "f784322dc19d4525b577be96258ab6aa",
+          "name": "vocabulary.pdf.partition.18.txt.GeminiEmbeddingGenerator.__.text_embedding",
+          "size": 39332,
+          "mime_type": "float[]",
+          "artifact_type": "TextEmbeddingVector",
+          "partition_number": 18,
+          "section_number": 0,
+          "tags": {},
+          "parent_id": "edd35a73f9174bc5b04bb4070ca5725a",
+          "source_partition_id": "e62ecfa4888b402fbe0c471eabe2e4c0",
+          "content_sha256": "",
+          "processed_by": [
+            "gen_embeddings",
+            "save_records"
+          ]
+        },
+        "vocabulary.pdf.partition.19.txt.GeminiEmbeddingGenerator.__.text_embedding": {
+          "id": "ba16b8af2b984f5ea3853697a9898ab5",
+          "name": "vocabulary.pdf.partition.19.txt.GeminiEmbeddingGenerator.__.text_embedding",
+          "size": 39312,
+          "mime_type": "float[]",
+          "artifact_type": "TextEmbeddingVector",
+          "partition_number": 19,
+          "section_number": 0,
+          "tags": {},
+          "parent_id": "edd35a73f9174bc5b04bb4070ca5725a",
+          "source_partition_id": "8cac790433814fd48ad805f6486c806c",
+          "content_sha256": "",
+          "processed_by": [
+            "gen_embeddings",
+            "save_records"
+          ]
+        },
+        "vocabulary.pdf.partition.20.txt.GeminiEmbeddingGenerator.__.text_embedding": {
+          "id": "a8059564b23e46219a93c36ba9269ee8",
+          "name": "vocabulary.pdf.partition.20.txt.GeminiEmbeddingGenerator.__.text_embedding",
+          "size": 39329,
+          "mime_type": "float[]",
+          "artifact_type": "TextEmbeddingVector",
+          "partition_number": 20,
+          "section_number": 0,
+          "tags": {},
+          "parent_id": "edd35a73f9174bc5b04bb4070ca5725a",
+          "source_partition_id": "5d2c7389eb824593a59d55567d815dd3",
+          "content_sha256": "",
+          "processed_by": [
+            "gen_embeddings",
+            "save_records"
+          ]
+        },
+        "vocabulary.pdf.partition.21.txt.GeminiEmbeddingGenerator.__.text_embedding": {
+          "id": "d96ee76c291e46a18ad6d2403ed8d2f7",
+          "name": "vocabulary.pdf.partition.21.txt.GeminiEmbeddingGenerator.__.text_embedding",
+          "size": 39371,
+          "mime_type": "float[]",
+          "artifact_type": "TextEmbeddingVector",
+          "partition_number": 21,
+          "section_number": 0,
+          "tags": {},
+          "parent_id": "edd35a73f9174bc5b04bb4070ca5725a",
+          "source_partition_id": "e733c13a37e446d6b0144a5aee47b39f",
+          "content_sha256": "",
+          "processed_by": [
+            "gen_embeddings",
+            "save_records"
+          ]
+        }
+      }
+    }
+  ],
+  "args": {},
+  "previous_executions_to_purge": []
+}
