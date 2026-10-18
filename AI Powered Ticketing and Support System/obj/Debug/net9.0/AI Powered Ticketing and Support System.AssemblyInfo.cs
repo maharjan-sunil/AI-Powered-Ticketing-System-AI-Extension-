@@ -15,7 +15,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("AI Powered Ticketing and Support System")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+1bebb4c80098f28308d3ff36b6328b2054d915e2")]
 [assembly: System.Reflection.AssemblyProductAttribute("AI Powered Ticketing and Support System")]
 [assembly: System.Reflection.AssemblyTitleAttribute("AI Powered Ticketing and Support System")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

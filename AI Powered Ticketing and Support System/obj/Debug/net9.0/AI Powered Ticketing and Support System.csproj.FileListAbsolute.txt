@@ -2,12 +2,10 @@ C:\Users\Sunil\Desktop\.NET & AZURE Interview Preparation\AI\AI Powered Ticketin
 C:\Users\Sunil\Desktop\.NET & AZURE Interview Preparation\AI\AI Powered Ticketing and Support System\bin\Debug\net9.0\appsettings.json
 C:\Users\Sunil\Desktop\.NET & AZURE Interview Preparation\AI\AI Powered Ticketing and Support System\bin\Debug\net9.0\km-files\default\vocabulary\vocabulary.pdf.extract.json
 C:\Users\Sunil\Desktop\.NET & AZURE Interview Preparation\AI\AI Powered Ticketing and Support System\bin\Debug\net9.0\km-files\default\vocabulary\__pipeline_status.json
-C:\Users\Sunil\Desktop\.NET & AZURE Interview Preparation\AI\AI Powered Ticketing and Support System\bin\Debug\net9.0\AI Powered Ticketing and Support System.staticwebassets.runtime.json
 C:\Users\Sunil\Desktop\.NET & AZURE Interview Preparation\AI\AI Powered Ticketing and Support System\bin\Debug\net9.0\AI Powered Ticketing and Support System.staticwebassets.endpoints.json
 C:\Users\Sunil\Desktop\.NET & AZURE Interview Preparation\AI\AI Powered Ticketing and Support System\bin\Debug\net9.0\AI Powered Ticketing and Support System.exe
 C:\Users\Sunil\Desktop\.NET & AZURE Interview Preparation\AI\AI Powered Ticketing and Support System\bin\Debug\net9.0\AI Powered Ticketing and Support System.deps.json
 C:\Users\Sunil\Desktop\.NET & AZURE Interview Preparation\AI\AI Powered Ticketing and Support System\bin\Debug\net9.0\AI Powered Ticketing and Support System.runtimeconfig.json
-C:\Users\Sunil\Desktop\.NET & AZURE Interview Preparation\AI\AI Powered Ticketing and Support System\bin\Debug\net9.0\AI Powered Ticketing and Support System.runtimeconfig.dev.json
 C:\Users\Sunil\Desktop\.NET & AZURE Interview Preparation\AI\AI Powered Ticketing and Support System\bin\Debug\net9.0\AI Powered Ticketing and Support System.dll
 C:\Users\Sunil\Desktop\.NET & AZURE Interview Preparation\AI\AI Powered Ticketing and Support System\bin\Debug\net9.0\AI Powered Ticketing and Support System.pdb
 C:\Users\Sunil\Desktop\.NET & AZURE Interview Preparation\AI\AI Powered Ticketing and Support System\bin\Debug\net9.0\ClosedXML.dll
@@ -89,11 +87,6 @@ C:\Users\Sunil\Desktop\.NET & AZURE Interview Preparation\AI\AI Powered Ticketin
 C:\Users\Sunil\Desktop\.NET & AZURE Interview Preparation\AI\AI Powered Ticketing and Support System\bin\Debug\net9.0\runtimes\browser\lib\net8.0\System.Text.Encodings.Web.dll
 C:\Users\Sunil\Desktop\.NET & AZURE Interview Preparation\AI\AI Powered Ticketing and Support System\bin\Debug\net9.0\runtimes\win\lib\net9.0\System.Text.Encodings.Web.dll
 C:\Users\Sunil\Desktop\.NET & AZURE Interview Preparation\AI\AI Powered Ticketing and Support System\obj\Debug\net9.0\AI Powered Ticketing and Support System.csproj.AssemblyReference.cache
-C:\Users\Sunil\Desktop\.NET & AZURE Interview Preparation\AI\AI Powered Ticketing and Support System\obj\Debug\net9.0\dotnet-watch\Microsoft.NET.Sdk.BlazorWeb.DotNetWatch.lib.module.js
-C:\Users\Sunil\Desktop\.NET & AZURE Interview Preparation\AI\AI Powered Ticketing and Support System\obj\Debug\net9.0\dotnet-watch\Microsoft.NET.Sdk.BlazorWeb.DotNetWatch.BrowserTools.js
-C:\Users\Sunil\Desktop\.NET & AZURE Interview Preparation\AI\AI Powered Ticketing and Support System\obj\Debug\net9.0\dotnet-watch\Microsoft.NET.Sdk.BlazorWeb.DotNetWatch.BrowserTools.Config.js
-C:\Users\Sunil\Desktop\.NET & AZURE Interview Preparation\AI\AI Powered Ticketing and Support System\obj\Debug\net9.0\dotnet-watch\browser-tools-key.public.json
-C:\Users\Sunil\Desktop\.NET & AZURE Interview Preparation\AI\AI Powered Ticketing and Support System\obj\Debug\net9.0\dotnet-watch\browser-tools-key.private.json
 C:\Users\Sunil\Desktop\.NET & AZURE Interview Preparation\AI\AI Powered Ticketing and Support System\obj\Debug\net9.0\rpswa.dswa.cache.json
 C:\Users\Sunil\Desktop\.NET & AZURE Interview Preparation\AI\AI Powered Ticketing and Support System\obj\Debug\net9.0\AI Powered Ticketing and Support System.GeneratedMSBuildEditorConfig.editorconfig
 C:\Users\Sunil\Desktop\.NET & AZURE Interview Preparation\AI\AI Powered Ticketing and Support System\obj\Debug\net9.0\AI Powered Ticketing and Support System.AssemblyInfoInputs.cache
@@ -101,16 +94,11 @@ C:\Users\Sunil\Desktop\.NET & AZURE Interview Preparation\AI\AI Powered Ticketin
 C:\Users\Sunil\Desktop\.NET & AZURE Interview Preparation\AI\AI Powered Ticketing and Support System\obj\Debug\net9.0\AI Powered Ticketing and Support System.csproj.CoreCompileInputs.cache
 C:\Users\Sunil\Desktop\.NET & AZURE Interview Preparation\AI\AI Powered Ticketing and Support System\obj\Debug\net9.0\AI Powered Ticketing and Support System.MvcApplicationPartsAssemblyInfo.cs
 C:\Users\Sunil\Desktop\.NET & AZURE Interview Preparation\AI\AI Powered Ticketing and Support System\obj\Debug\net9.0\AI Powered Ticketing and Support System.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Sunil\Desktop\.NET & AZURE Interview Preparation\AI\AI Powered Ticketing and Support System\obj\Debug\net9.0\AI Powered Ticketing and Support System.sourcelink.json
 C:\Users\Sunil\Desktop\.NET & AZURE Interview Preparation\AI\AI Powered Ticketing and Support System\obj\Debug\net9.0\rjimswa.dswa.cache.json
 C:\Users\Sunil\Desktop\.NET & AZURE Interview Preparation\AI\AI Powered Ticketing and Support System\obj\Debug\net9.0\rjsmrazor.dswa.cache.json
 C:\Users\Sunil\Desktop\.NET & AZURE Interview Preparation\AI\AI Powered Ticketing and Support System\obj\Debug\net9.0\rjsmcshtml.dswa.cache.json
-C:\Users\Sunil\Desktop\.NET & AZURE Interview Preparation\AI\AI Powered Ticketing and Support System\obj\Debug\net9.0\jsmodules\jsmodules.build.manifest.json
-C:\Users\Sunil\Desktop\.NET & AZURE Interview Preparation\AI\AI Powered Ticketing and Support System\obj\Debug\net9.0\scopedcss\scopedcss.cache
 C:\Users\Sunil\Desktop\.NET & AZURE Interview Preparation\AI\AI Powered Ticketing and Support System\obj\Debug\net9.0\scopedcss\bundle\AI Powered Ticketing and Support System.styles.css
-C:\Users\Sunil\Desktop\.NET & AZURE Interview Preparation\AI\AI Powered Ticketing and Support System\obj\Debug\net9.0\compressed\vzjthghycg-{0}-hbxp78vwan-hbxp78vwan.gz
-C:\Users\Sunil\Desktop\.NET & AZURE Interview Preparation\AI\AI Powered Ticketing and Support System\obj\Debug\net9.0\compressed\ovq0o2ejis-{0}-x4pean0k4o-x4pean0k4o.gz
-C:\Users\Sunil\Desktop\.NET & AZURE Interview Preparation\AI\AI Powered Ticketing and Support System\obj\Debug\net9.0\compressed\dlod202lh6-{0}-pmpabpnd9a-pmpabpnd9a.gz
-C:\Users\Sunil\Desktop\.NET & AZURE Interview Preparation\AI\AI Powered Ticketing and Support System\obj\Debug\net9.0\compressed\d9i78dj8b8-{0}-o299wl1apk-o299wl1apk.gz
 C:\Users\Sunil\Desktop\.NET & AZURE Interview Preparation\AI\AI Powered Ticketing and Support System\obj\Debug\net9.0\staticwebassets.build.json
 C:\Users\Sunil\Desktop\.NET & AZURE Interview Preparation\AI\AI Powered Ticketing and Support System\obj\Debug\net9.0\staticwebassets.build.json.cache
 C:\Users\Sunil\Desktop\.NET & AZURE Interview Preparation\AI\AI Powered Ticketing and Support System\obj\Debug\net9.0\staticwebassets.development.json
