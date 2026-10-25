@@ -1,7 +1,7 @@
 {
   "index": "default",
   "document_id": "vocabulary",
-  "execution_id": "28ba7e88bd944667b30345742b835750",
+  "execution_id": "0fc3757ddaeb4962b6979864c6909626",
   "steps": [
     "extract",
     "partition",
@@ -16,11 +16,11 @@
     "save_records"
   ],
   "tags": {},
-  "creation": "2026-10-15T23:45:48.0367884+00:00",
-  "last_update": "2026-10-15T23:46:35.6867122+00:00",
+  "creation": "2026-10-19T23:45:34.1604133+00:00",
+  "last_update": "2026-10-19T23:46:36.5340713+00:00",
   "files": [
     {
-      "id": "7b23e727dd1845e58c744848e86055d1",
+      "id": "fea4e2bbde2545e0904745eea31ded69",
       "name": "vocabulary.pdf",
       "size": 451604,
       "mime_type": "application/pdf",
@@ -33,7 +33,7 @@
       ],
       "generated_files": {
         "vocabulary.pdf.extract.txt": {
-          "id": "374cadc05a5d4b56b13e954000584e90",
+          "id": "0a5d46182b3848d9bca60430ca62951c",
           "name": "vocabulary.pdf.extract.txt",
           "size": 32126,
           "mime_type": "text/plain",
@@ -41,7 +41,7 @@
           "partition_number": 0,
           "section_number": 0,
           "tags": {},
-          "parent_id": "7b23e727dd1845e58c744848e86055d1",
+          "parent_id": "fea4e2bbde2545e0904745eea31ded69",
           "source_partition_id": "",
           "content_sha256": "",
           "processed_by": [
@@ -50,7 +50,7 @@
           ]
         },
         "vocabulary.pdf.extract.json": {
-          "id": "ba861965c12040d78f6881c2458a6e30",
+          "id": "7b7c1d7224e545c8b8a35c7db1bf06da",
           "name": "vocabulary.pdf.extract.json",
           "size": 32126,
           "mime_type": "text/plain",
@@ -58,7 +58,7 @@
           "partition_number": 0,
           "section_number": 0,
           "tags": {},
-          "parent_id": "7b23e727dd1845e58c744848e86055d1",
+          "parent_id": "fea4e2bbde2545e0904745eea31ded69",
           "source_partition_id": "",
           "content_sha256": "",
           "processed_by": [
@@ -66,7 +66,7 @@
           ]
         },
         "vocabulary.pdf.partition.0.txt": {
-          "id": "783f515fca014ac7b41caf58b6875f81",
+          "id": "7bd58129e0f448dbb5049934aadf5456",
           "name": "vocabulary.pdf.partition.0.txt",
           "size": 985,
           "mime_type": "text/plain",
@@ -74,16 +74,16 @@
           "partition_number": 0,
           "section_number": 0,
           "tags": {},
-          "parent_id": "7b23e727dd1845e58c744848e86055d1",
+          "parent_id": "fea4e2bbde2545e0904745eea31ded69",
           "source_partition_id": "",
           "content_sha256": "a46bb792add2589652c2fecccf483c9a6dbb44abdb7c1861fdbddbc05b3d69b3",
           "processed_by": [
             "partition",
-            "gen_embeddings/AI.OpenAI.OpenAITextEmbeddingGenerator/__"
+            "gen_embeddings/AI_Powered_Ticketing_and_Support_System.Service.GeminiEmbeddingGenerator/__"
           ]
         },
         "vocabulary.pdf.partition.1.txt": {
-          "id": "8823d7bea3de48849aa1267c41d3f180",
+          "id": "dc0864f119404ee2b152d54333dfdedc",
           "name": "vocabulary.pdf.partition.1.txt",
           "size": 921,
           "mime_type": "text/plain",
@@ -91,16 +91,16 @@
           "partition_number": 1,
           "section_number": 0,
           "tags": {},
-          "parent_id": "7b23e727dd1845e58c744848e86055d1",
+          "parent_id": "fea4e2bbde2545e0904745eea31ded69",
           "source_partition_id": "",
           "content_sha256": "5f6709f81224532e97b630b187ca6394d94b6e73e5ca53e1eeb386865d582126",
           "processed_by": [
             "partition",
-            "gen_embeddings/AI.OpenAI.OpenAITextEmbeddingGenerator/__"
+            "gen_embeddings/AI_Powered_Ticketing_and_Support_System.Service.GeminiEmbeddingGenerator/__"
           ]
         },
         "vocabulary.pdf.partition.2.txt": {
-          "id": "2849f482fb8b4f8fbfedb6d40453dc4c",
+          "id": "3ef252492bf047b18c1a52bc5caba834",
           "name": "vocabulary.pdf.partition.2.txt",
           "size": 1030,
           "mime_type": "text/plain",
@@ -108,16 +108,16 @@
           "partition_number": 2,
           "section_number": 0,
           "tags": {},
-          "parent_id": "7b23e727dd1845e58c744848e86055d1",
+          "parent_id": "fea4e2bbde2545e0904745eea31ded69",
           "source_partition_id": "",
           "content_sha256": "3d195c4799c11ac702ed578b2b529fa988b5a79f43645732d72a5f2dc61c82a4",
           "processed_by": [
             "partition",
-            "gen_embeddings/AI.OpenAI.OpenAITextEmbeddingGenerator/__"
+            "gen_embeddings/AI_Powered_Ticketing_and_Support_System.Service.GeminiEmbeddingGenerator/__"
           ]
         },
         "vocabulary.pdf.partition.3.txt": {
-          "id": "044aef471d6d4bf986542eafa69beead",
+          "id": "d040605614ab423585cda24e6040ff83",
           "name": "vocabulary.pdf.partition.3.txt",
           "size": 920,
           "mime_type": "text/plain",
@@ -125,16 +125,16 @@
           "partition_number": 3,
           "section_number": 0,
           "tags": {},
-          "parent_id": "7b23e727dd1845e58c744848e86055d1",
+          "parent_id": "fea4e2bbde2545e0904745eea31ded69",
           "source_partition_id": "",
           "content_sha256": "ae12ce3cdaffba7909524cf31c40dc3900b95d41a5b20ebb0d66eac9c2e3825d",
           "processed_by": [
             "partition",
-            "gen_embeddings/AI.OpenAI.OpenAITextEmbeddingGenerator/__"
+            "gen_embeddings/AI_Powered_Ticketing_and_Support_System.Service.GeminiEmbeddingGenerator/__"
           ]
         },
         "vocabulary.pdf.partition.4.txt": {
-          "id": "f38544c26d2240dc9af3a14ebc78dfd7",
+          "id": "96efd1c2c10a4ce7b27ebcabce1ce5c0",
           "name": "vocabulary.pdf.partition.4.txt",
           "size": 935,
           "mime_type": "text/plain",
@@ -142,16 +142,16 @@
           "partition_number": 4,
           "section_number": 0,
           "tags": {},
-          "parent_id": "7b23e727dd1845e58c744848e86055d1",
+          "parent_id": "fea4e2bbde2545e0904745eea31ded69",
           "source_partition_id": "",
           "content_sha256": "aa7881ba44573b29f33773a47663aa122218c50a008dadedf78c27aec4f07824",
           "processed_by": [
             "partition",
-            "gen_embeddings/AI.OpenAI.OpenAITextEmbeddingGenerator/__"
+            "gen_embeddings/AI_Powered_Ticketing_and_Support_System.Service.GeminiEmbeddingGenerator/__"
           ]
         },
         "vocabulary.pdf.partition.5.txt": {
-          "id": "c2a4b96ff4ea41d8937cfefae7010e82",
+          "id": "4ed4f3d59c624ea79ac08a97ae40d21a",
           "name": "vocabulary.pdf.partition.5.txt",
           "size": 939,
           "mime_type": "text/plain",
@@ -159,16 +159,16 @@
           "partition_number": 5,
           "section_number": 0,
           "tags": {},
-          "parent_id": "7b23e727dd1845e58c744848e86055d1",
+          "parent_id": "fea4e2bbde2545e0904745eea31ded69",
           "source_partition_id": "",
           "content_sha256": "ba206ac31e7127c5dfa63ec4e90bd7ba0ae068ce1a7f8bd245b9afc10c9b3fa8",
           "processed_by": [
             "partition",
-            "gen_embeddings/AI.OpenAI.OpenAITextEmbeddingGenerator/__"
+            "gen_embeddings/AI_Powered_Ticketing_and_Support_System.Service.GeminiEmbeddingGenerator/__"
           ]
         },
         "vocabulary.pdf.partition.6.txt": {
-          "id": "32740eace06d4190adcadc11c5b74a31",
+          "id": "7465667eee1741ebb21c3580b2d09a1d",
           "name": "vocabulary.pdf.partition.6.txt",
           "size": 968,
           "mime_type": "text/plain",
@@ -176,16 +176,16 @@
           "partition_number": 6,
           "section_number": 0,
           "tags": {},
-          "parent_id": "7b23e727dd1845e58c744848e86055d1",
+          "parent_id": "fea4e2bbde2545e0904745eea31ded69",
           "source_partition_id": "",
           "content_sha256": "3519c22c86cc6b81b766ec602e82d9f45030330a23c6f1f875aa11f6a2daccbf",
           "processed_by": [
             "partition",
-            "gen_embeddings/AI.OpenAI.OpenAITextEmbeddingGenerator/__"
+            "gen_embeddings/AI_Powered_Ticketing_and_Support_System.Service.GeminiEmbeddingGenerator/__"
           ]
         },
         "vocabulary.pdf.partition.7.txt": {
-          "id": "61332c75ae28440580e5bcaf7c88248a",
+          "id": "5f4c08b27b4a44e18a2cb0480363b105",
           "name": "vocabulary.pdf.partition.7.txt",
           "size": 981,
           "mime_type": "text/plain",
@@ -193,16 +193,16 @@
           "partition_number": 7,
           "section_number": 0,
           "tags": {},
-          "parent_id": "7b23e727dd1845e58c744848e86055d1",
+          "parent_id": "fea4e2bbde2545e0904745eea31ded69",
           "source_partition_id": "",
           "content_sha256": "d26cedb0979b5a3c39ac2c0ad6964dac171157230bb6bda459c7505aafea86cc",
           "processed_by": [
             "partition",
-            "gen_embeddings/AI.OpenAI.OpenAITextEmbeddingGenerator/__"
+            "gen_embeddings/AI_Powered_Ticketing_and_Support_System.Service.GeminiEmbeddingGenerator/__"
           ]
         },
         "vocabulary.pdf.partition.8.txt": {
-          "id": "5c48cc993bf448f4b616bb9443f21335",
+          "id": "e815e7756d1740f7aa1ffb67e4b32c24",
           "name": "vocabulary.pdf.partition.8.txt",
           "size": 1012,
           "mime_type": "text/plain",
@@ -210,16 +210,16 @@
           "partition_number": 8,
           "section_number": 0,
           "tags": {},
-          "parent_id": "7b23e727dd1845e58c744848e86055d1",
+          "parent_id": "fea4e2bbde2545e0904745eea31ded69",
           "source_partition_id": "",
           "content_sha256": "ab003051707672a853536a6421bd70420585ac66ba6e2305eb8df83f9e1c4b41",
           "processed_by": [
             "partition",
-            "gen_embeddings/AI.OpenAI.OpenAITextEmbeddingGenerator/__"
+            "gen_embeddings/AI_Powered_Ticketing_and_Support_System.Service.GeminiEmbeddingGenerator/__"
           ]
         },
         "vocabulary.pdf.partition.9.txt": {
-          "id": "8ab530f020c74ffc97149f367cd6f1c2",
+          "id": "b683195fd7ac441c924afd8c2129a0d9",
           "name": "vocabulary.pdf.partition.9.txt",
           "size": 935,
           "mime_type": "text/plain",
@@ -227,16 +227,16 @@
           "partition_number": 9,
           "section_number": 0,
           "tags": {},
-          "parent_id": "7b23e727dd1845e58c744848e86055d1",
+          "parent_id": "fea4e2bbde2545e0904745eea31ded69",
           "source_partition_id": "",
           "content_sha256": "5002af3e9944360f78c4f4d63c8abaf0725fca8481549e2bf4f95a0581be77a2",
           "processed_by": [
             "partition",
-            "gen_embeddings/AI.OpenAI.OpenAITextEmbeddingGenerator/__"
+            "gen_embeddings/AI_Powered_Ticketing_and_Support_System.Service.GeminiEmbeddingGenerator/__"
           ]
         },
         "vocabulary.pdf.partition.10.txt": {
-          "id": "4e8a2a9d85e74abfbfbf71ab002c6809",
+          "id": "5e4e3a6895e74d3b8b03ab218c79d227",
           "name": "vocabulary.pdf.partition.10.txt",
           "size": 914,
           "mime_type": "text/plain",
@@ -244,16 +244,16 @@
           "partition_number": 10,
           "section_number": 0,
           "tags": {},
-          "parent_id": "7b23e727dd1845e58c744848e86055d1",
+          "parent_id": "fea4e2bbde2545e0904745eea31ded69",
           "source_partition_id": "",
           "content_sha256": "5795322a20b32480c8e13482d6b9bdbda32c939ab62a1c85f578606e4ad7c50d",
           "processed_by": [
             "partition",
-            "gen_embeddings/AI.OpenAI.OpenAITextEmbeddingGenerator/__"
+            "gen_embeddings/AI_Powered_Ticketing_and_Support_System.Service.GeminiEmbeddingGenerator/__"
           ]
         },
         "vocabulary.pdf.partition.11.txt": {
-          "id": "6a66b0a522bf4368bae1fe2bbf019496",
+          "id": "36e20c1ae76943b29ddc9f363a9928d2",
           "name": "vocabulary.pdf.partition.11.txt",
           "size": 997,
           "mime_type": "text/plain",
@@ -261,16 +261,16 @@
           "partition_number": 11,
           "section_number": 0,
           "tags": {},
-          "parent_id": "7b23e727dd1845e58c744848e86055d1",
+          "parent_id": "fea4e2bbde2545e0904745eea31ded69",
           "source_partition_id": "",
           "content_sha256": "0417aa8277fb0759abb8b6f87ed7aa9a1a53253ac46c28c55ebb7d6371d6f5d4",
           "processed_by": [
             "partition",
-            "gen_embeddings/AI.OpenAI.OpenAITextEmbeddingGenerator/__"
+            "gen_embeddings/AI_Powered_Ticketing_and_Support_System.Service.GeminiEmbeddingGenerator/__"
           ]
         },
         "vocabulary.pdf.partition.12.txt": {
-          "id": "628e00f5cd8a4227883e27fdffecfbb0",
+          "id": "24d128db9e6544cea448f2f385fe7dcb",
           "name": "vocabulary.pdf.partition.12.txt",
           "size": 1021,
           "mime_type": "text/plain",
@@ -278,16 +278,16 @@
           "partition_number": 12,
           "section_number": 0,
           "tags": {},
-          "parent_id": "7b23e727dd1845e58c744848e86055d1",
+          "parent_id": "fea4e2bbde2545e0904745eea31ded69",
           "source_partition_id": "",
           "content_sha256": "1aaee55a58580031e220eba643c5c08afb637e8ba83d41c1bde50698313d0536",
           "processed_by": [
             "partition",
-            "gen_embeddings/AI.OpenAI.OpenAITextEmbeddingGenerator/__"
+            "gen_embeddings/AI_Powered_Ticketing_and_Support_System.Service.GeminiEmbeddingGenerator/__"
           ]
         },
         "vocabulary.pdf.partition.13.txt": {
-          "id": "9d328d8eaa5b4760a53e4e6176c576ee",
+          "id": "37bab3ffed6444949642982fd8e42fdf",
           "name": "vocabulary.pdf.partition.13.txt",
           "size": 1136,
           "mime_type": "text/plain",
@@ -295,16 +295,16 @@
           "partition_number": 13,
           "section_number": 0,
           "tags": {},
-          "parent_id": "7b23e727dd1845e58c744848e86055d1",
+          "parent_id": "fea4e2bbde2545e0904745eea31ded69",
           "source_partition_id": "",
           "content_sha256": "61271108b9b191182568bcfe1c47ae5be1955adda0dfe54726413e6850c6f9b2",
           "processed_by": [
             "partition",
-            "gen_embeddings/AI.OpenAI.OpenAITextEmbeddingGenerator/__"
+            "gen_embeddings/AI_Powered_Ticketing_and_Support_System.Service.GeminiEmbeddingGenerator/__"
           ]
         },
         "vocabulary.pdf.partition.14.txt": {
-          "id": "42a8d531dcd0456fb31c20898083f5cb",
+          "id": "a9f0c6ab722f45c88b68a1197750631f",
           "name": "vocabulary.pdf.partition.14.txt",
           "size": 1071,
           "mime_type": "text/plain",
@@ -312,16 +312,16 @@
           "partition_number": 14,
           "section_number": 0,
           "tags": {},
-          "parent_id": "7b23e727dd1845e58c744848e86055d1",
+          "parent_id": "fea4e2bbde2545e0904745eea31ded69",
           "source_partition_id": "",
           "content_sha256": "a908d7a7125c2466234d28ce9463c91e5d2ea0ebd69458543493cfed4ff727d7",
           "processed_by": [
             "partition",
-            "gen_embeddings/AI.OpenAI.OpenAITextEmbeddingGenerator/__"
+            "gen_embeddings/AI_Powered_Ticketing_and_Support_System.Service.GeminiEmbeddingGenerator/__"
           ]
         },
         "vocabulary.pdf.partition.15.txt": {
-          "id": "25df077f59b1469bb6052539fabd55cf",
+          "id": "9e0d48f5205f45869407dd4b33803ce5",
           "name": "vocabulary.pdf.partition.15.txt",
           "size": 1071,
           "mime_type": "text/plain",
@@ -329,16 +329,16 @@
           "partition_number": 15,
           "section_number": 0,
           "tags": {},
-          "parent_id": "7b23e727dd1845e58c744848e86055d1",
+          "parent_id": "fea4e2bbde2545e0904745eea31ded69",
           "source_partition_id": "",
           "content_sha256": "48fb1fca8ca2c8a2640aaf95e8014213236426d4f2c99af853dbfe53b8432fd9",
           "processed_by": [
             "partition",
-            "gen_embeddings/AI.OpenAI.OpenAITextEmbeddingGenerator/__"
+            "gen_embeddings/AI_Powered_Ticketing_and_Support_System.Service.GeminiEmbeddingGenerator/__"
           ]
         },
         "vocabulary.pdf.partition.16.txt": {
-          "id": "aa0d2179907d401aad326018831778a2",
+          "id": "f37936a93baa464c8394c17c998b12f6",
           "name": "vocabulary.pdf.partition.16.txt",
           "size": 981,
           "mime_type": "text/plain",
@@ -346,16 +346,16 @@
           "partition_number": 16,
           "section_number": 0,
           "tags": {},
-          "parent_id": "7b23e727dd1845e58c744848e86055d1",
+          "parent_id": "fea4e2bbde2545e0904745eea31ded69",
           "source_partition_id": "",
           "content_sha256": "9a6c2998080507520d9fb5cd355022dca90366febb7783b29dbf0f945f7fa26c",
           "processed_by": [
             "partition",
-            "gen_embeddings/AI.OpenAI.OpenAITextEmbeddingGenerator/__"
+            "gen_embeddings/AI_Powered_Ticketing_and_Support_System.Service.GeminiEmbeddingGenerator/__"
           ]
         },
         "vocabulary.pdf.partition.17.txt": {
-          "id": "660274c122e44325b62e94e54eb99b79",
+          "id": "bc52196eda8843c9a35433deaf8ec999",
           "name": "vocabulary.pdf.partition.17.txt",
           "size": 989,
           "mime_type": "text/plain",
@@ -363,16 +363,16 @@
           "partition_number": 17,
           "section_number": 0,
           "tags": {},
-          "parent_id": "7b23e727dd1845e58c744848e86055d1",
+          "parent_id": "fea4e2bbde2545e0904745eea31ded69",
           "source_partition_id": "",
           "content_sha256": "0f030f5a0b6838d86f0d67161b72a63cbf96e333b07a87ac70409978c23fc21f",
           "processed_by": [
             "partition",
-            "gen_embeddings/AI.OpenAI.OpenAITextEmbeddingGenerator/__"
+            "gen_embeddings/AI_Powered_Ticketing_and_Support_System.Service.GeminiEmbeddingGenerator/__"
           ]
         },
         "vocabulary.pdf.partition.18.txt": {
-          "id": "419fae93be2c45b0a32a1b723c90f506",
+          "id": "2518bc9edf544753b059bd95a365b98c",
           "name": "vocabulary.pdf.partition.18.txt",
           "size": 953,
           "mime_type": "text/plain",
@@ -380,16 +380,16 @@
           "partition_number": 18,
           "section_number": 0,
           "tags": {},
-          "parent_id": "7b23e727dd1845e58c744848e86055d1",
+          "parent_id": "fea4e2bbde2545e0904745eea31ded69",
           "source_partition_id": "",
           "content_sha256": "1e8fa02ca8cd7123a7e951450fa53ffce22d7aaa5cae2e82346abe54f4675aa1",
           "processed_by": [
             "partition",
-            "gen_embeddings/AI.OpenAI.OpenAITextEmbeddingGenerator/__"
+            "gen_embeddings/AI_Powered_Ticketing_and_Support_System.Service.GeminiEmbeddingGenerator/__"
           ]
         },
         "vocabulary.pdf.partition.19.txt": {
-          "id": "a04e996e50c24200a8df67694ccab4c1",
+          "id": "d3b025264c6a4cceb82f76c5b95439e2",
           "name": "vocabulary.pdf.partition.19.txt",
           "size": 1063,
           "mime_type": "text/plain",
@@ -397,16 +397,16 @@
           "partition_number": 19,
           "section_number": 0,
           "tags": {},
-          "parent_id": "7b23e727dd1845e58c744848e86055d1",
+          "parent_id": "fea4e2bbde2545e0904745eea31ded69",
           "source_partition_id": "",
           "content_sha256": "5e54fed0c9d40cc69e75ca6a848bcc4bd3b115809a8f127b2100b1f1ac390630",
           "processed_by": [
             "partition",
-            "gen_embeddings/AI.OpenAI.OpenAITextEmbeddingGenerator/__"
+            "gen_embeddings/AI_Powered_Ticketing_and_Support_System.Service.GeminiEmbeddingGenerator/__"
           ]
         },
         "vocabulary.pdf.partition.20.txt": {
-          "id": "72e856dbaecc47da9253a7772c896f5f",
+          "id": "141a8dad95934285a74b43a25f08cf9a",
           "name": "vocabulary.pdf.partition.20.txt",
           "size": 994,
           "mime_type": "text/plain",
@@ -414,16 +414,16 @@
           "partition_number": 20,
           "section_number": 0,
           "tags": {},
-          "parent_id": "7b23e727dd1845e58c744848e86055d1",
+          "parent_id": "fea4e2bbde2545e0904745eea31ded69",
           "source_partition_id": "",
           "content_sha256": "38226826265b35f8a9b06b785d2ef109c8dacd9c646deb45431188196f4c63c4",
           "processed_by": [
             "partition",
-            "gen_embeddings/AI.OpenAI.OpenAITextEmbeddingGenerator/__"
+            "gen_embeddings/AI_Powered_Ticketing_and_Support_System.Service.GeminiEmbeddingGenerator/__"
           ]
         },
         "vocabulary.pdf.partition.21.txt": {
-          "id": "0175df51849647b393a469b80c68f6f9",
+          "id": "69c8abb3348b49adb79ad24994439166",
           "name": "vocabulary.pdf.partition.21.txt",
           "size": 994,
           "mime_type": "text/plain",
@@ -431,16 +431,16 @@
           "partition_number": 21,
           "section_number": 0,
           "tags": {},
-          "parent_id": "7b23e727dd1845e58c744848e86055d1",
+          "parent_id": "fea4e2bbde2545e0904745eea31ded69",
           "source_partition_id": "",
           "content_sha256": "62d7911f72c6978010af9f09163ad8f82013d71ff366294186e2d4b687e12485",
           "processed_by": [
             "partition",
-            "gen_embeddings/AI.OpenAI.OpenAITextEmbeddingGenerator/__"
+            "gen_embeddings/AI_Powered_Ticketing_and_Support_System.Service.GeminiEmbeddingGenerator/__"
           ]
         },
         "vocabulary.pdf.partition.22.txt": {
-          "id": "acacde0b6a734fada165595e2352e07e",
+          "id": "57df6fab9e3a4800950f5f408a99f69f",
           "name": "vocabulary.pdf.partition.22.txt",
           "size": 992,
           "mime_type": "text/plain",
@@ -448,16 +448,16 @@
           "partition_number": 22,
           "section_number": 0,
           "tags": {},
-          "parent_id": "7b23e727dd1845e58c744848e86055d1",
+          "parent_id": "fea4e2bbde2545e0904745eea31ded69",
           "source_partition_id": "",
           "content_sha256": "688f388c26db22851098fecb754f6e36111cc4a60f2d0903056c63a1322d6e03",
           "processed_by": [
             "partition",
-            "gen_embeddings/AI.OpenAI.OpenAITextEmbeddingGenerator/__"
+            "gen_embeddings/AI_Powered_Ticketing_and_Support_System.Service.GeminiEmbeddingGenerator/__"
           ]
         },
         "vocabulary.pdf.partition.23.txt": {
-          "id": "3f9cdc065f3341349001cf06e2c48b4e",
+          "id": "5c6dff9ec7cd4a5d913d4421ea6b1352",
           "name": "vocabulary.pdf.partition.23.txt",
           "size": 995,
           "mime_type": "text/plain",
@@ -465,16 +465,16 @@
           "partition_number": 23,
           "section_number": 0,
           "tags": {},
-          "parent_id": "7b23e727dd1845e58c744848e86055d1",
+          "parent_id": "fea4e2bbde2545e0904745eea31ded69",
           "source_partition_id": "",
           "content_sha256": "c26369baa38b5821fdec559f96461c8461392b7535a872e5d26c074128e8a4f2",
           "processed_by": [
             "partition",
-            "gen_embeddings/AI.OpenAI.OpenAITextEmbeddingGenerator/__"
+            "gen_embeddings/AI_Powered_Ticketing_and_Support_System.Service.GeminiEmbeddingGenerator/__"
           ]
         },
         "vocabulary.pdf.partition.24.txt": {
-          "id": "a9261a05f5a149cfbb11072c6cc1923f",
+          "id": "ec2ed05acbf34da599b813edae4a772a",
           "name": "vocabulary.pdf.partition.24.txt",
           "size": 1054,
           "mime_type": "text/plain",
@@ -482,16 +482,16 @@
           "partition_number": 24,
           "section_number": 0,
           "tags": {},
-          "parent_id": "7b23e727dd1845e58c744848e86055d1",
+          "parent_id": "fea4e2bbde2545e0904745eea31ded69",
           "source_partition_id": "",
           "content_sha256": "a6d2cb07ece334c087f038822821411f723710f5ea3199059d83567d11de5c7f",
           "processed_by": [
             "partition",
-            "gen_embeddings/AI.OpenAI.OpenAITextEmbeddingGenerator/__"
+            "gen_embeddings/AI_Powered_Ticketing_and_Support_System.Service.GeminiEmbeddingGenerator/__"
           ]
         },
         "vocabulary.pdf.partition.25.txt": {
-          "id": "4f6067467ba54e8f950e8b5808176f7b",
+          "id": "3bf4fdb5d6964dd695c979e59892a15d",
           "name": "vocabulary.pdf.partition.25.txt",
           "size": 1056,
           "mime_type": "text/plain",
@@ -499,16 +499,16 @@
           "partition_number": 25,
           "section_number": 0,
           "tags": {},
-          "parent_id": "7b23e727dd1845e58c744848e86055d1",
+          "parent_id": "fea4e2bbde2545e0904745eea31ded69",
           "source_partition_id": "",
           "content_sha256": "66cc55f71f2b74c3af03dddc408a8d5c59650797f4fe0932b62b626397ce142b",
           "processed_by": [
             "partition",
-            "gen_embeddings/AI.OpenAI.OpenAITextEmbeddingGenerator/__"
+            "gen_embeddings/AI_Powered_Ticketing_and_Support_System.Service.GeminiEmbeddingGenerator/__"
           ]
         },
         "vocabulary.pdf.partition.26.txt": {
-          "id": "8d6f9b8882764dd48cf6d498adfbc322",
+          "id": "1fc14267f6da4ae39ea45d79d791633d",
           "name": "vocabulary.pdf.partition.26.txt",
           "size": 1008,
           "mime_type": "text/plain",
@@ -516,16 +516,16 @@
           "partition_number": 26,
           "section_number": 0,
           "tags": {},
-          "parent_id": "7b23e727dd1845e58c744848e86055d1",
+          "parent_id": "fea4e2bbde2545e0904745eea31ded69",
           "source_partition_id": "",
           "content_sha256": "f3d6cb3eea445e6b4e02f9300d3525c72a70de459af747d2ab999e7bc6e903ae",
           "processed_by": [
             "partition",
-            "gen_embeddings/AI.OpenAI.OpenAITextEmbeddingGenerator/__"
+            "gen_embeddings/AI_Powered_Ticketing_and_Support_System.Service.GeminiEmbeddingGenerator/__"
           ]
         },
         "vocabulary.pdf.partition.27.txt": {
-          "id": "977ba219b16c4385bff6ca95ba9377d8",
+          "id": "eb95786e812e45588d4be78935535a70",
           "name": "vocabulary.pdf.partition.27.txt",
           "size": 1078,
           "mime_type": "text/plain",
@@ -533,16 +533,16 @@
           "partition_number": 27,
           "section_number": 0,
           "tags": {},
-          "parent_id": "7b23e727dd1845e58c744848e86055d1",
+          "parent_id": "fea4e2bbde2545e0904745eea31ded69",
           "source_partition_id": "",
           "content_sha256": "d673706de053a35802bfc41aa245518adb72f7c16158f625744aa4f31aca92c0",
           "processed_by": [
             "partition",
-            "gen_embeddings/AI.OpenAI.OpenAITextEmbeddingGenerator/__"
+            "gen_embeddings/AI_Powered_Ticketing_and_Support_System.Service.GeminiEmbeddingGenerator/__"
           ]
         },
         "vocabulary.pdf.partition.28.txt": {
-          "id": "e60a4cdbd62549e5b02da75dd75763b1",
+          "id": "3fcd398ef0d8490d8c0bcfe796e3b315",
           "name": "vocabulary.pdf.partition.28.txt",
           "size": 1062,
           "mime_type": "text/plain",
@@ -550,16 +550,16 @@
           "partition_number": 28,
           "section_number": 0,
           "tags": {},
-          "parent_id": "7b23e727dd1845e58c744848e86055d1",
+          "parent_id": "fea4e2bbde2545e0904745eea31ded69",
           "source_partition_id": "",
           "content_sha256": "2ef455188e9aba496fa858467c3ae678628eb6b66f9f73b2d3625ea506ec2f0a",
           "processed_by": [
             "partition",
-            "gen_embeddings/AI.OpenAI.OpenAITextEmbeddingGenerator/__"
+            "gen_embeddings/AI_Powered_Ticketing_and_Support_System.Service.GeminiEmbeddingGenerator/__"
           ]
         },
         "vocabulary.pdf.partition.29.txt": {
-          "id": "110b96d32e9a473488c8735dbe54398a",
+          "id": "46b101a17eaa429ea09fe005eaf930a4",
           "name": "vocabulary.pdf.partition.29.txt",
           "size": 1102,
           "mime_type": "text/plain",
@@ -567,16 +567,16 @@
           "partition_number": 29,
           "section_number": 0,
           "tags": {},
-          "parent_id": "7b23e727dd1845e58c744848e86055d1",
+          "parent_id": "fea4e2bbde2545e0904745eea31ded69",
           "source_partition_id": "",
           "content_sha256": "5496a82c0d25e8e47e3abe8110ab181a78dfe91e10a28e43ffbc20dc011dacec",
           "processed_by": [
             "partition",
-            "gen_embeddings/AI.OpenAI.OpenAITextEmbeddingGenerator/__"
+            "gen_embeddings/AI_Powered_Ticketing_and_Support_System.Service.GeminiEmbeddingGenerator/__"
           ]
         },
         "vocabulary.pdf.partition.30.txt": {
-          "id": "2ea531ba6afb41bead884e3858895410",
+          "id": "eadec3d7de2a4df494fcd285d6d8fdcd",
           "name": "vocabulary.pdf.partition.30.txt",
           "size": 1011,
           "mime_type": "text/plain",
@@ -584,16 +584,16 @@
           "partition_number": 30,
           "section_number": 0,
           "tags": {},
-          "parent_id": "7b23e727dd1845e58c744848e86055d1",
+          "parent_id": "fea4e2bbde2545e0904745eea31ded69",
           "source_partition_id": "",
           "content_sha256": "3c034ea2d63bfb001e26ff1c907dfebb77f58e517da669875a9d31638e19cb89",
           "processed_by": [
             "partition",
-            "gen_embeddings/AI.OpenAI.OpenAITextEmbeddingGenerator/__"
+            "gen_embeddings/AI_Powered_Ticketing_and_Support_System.Service.GeminiEmbeddingGenerator/__"
           ]
         },
         "vocabulary.pdf.partition.31.txt": {
-          "id": "aac1bad241be48c9a6312fa40a1be7bc",
+          "id": "0b8dbcea4f70494f9ba853641a0efac9",
           "name": "vocabulary.pdf.partition.31.txt",
           "size": 961,
           "mime_type": "text/plain",
@@ -601,16 +601,16 @@
           "partition_number": 31,
           "section_number": 0,
           "tags": {},
-          "parent_id": "7b23e727dd1845e58c744848e86055d1",
+          "parent_id": "fea4e2bbde2545e0904745eea31ded69",
           "source_partition_id": "",
           "content_sha256": "74fd9964e3d0f36bb17c2c2538811b98b2be62cf4da7f5d2761989dcfee3798e",
           "processed_by": [
             "partition",
-            "gen_embeddings/AI.OpenAI.OpenAITextEmbeddingGenerator/__"
+            "gen_embeddings/AI_Powered_Ticketing_and_Support_System.Service.GeminiEmbeddingGenerator/__"
           ]
         },
         "vocabulary.pdf.partition.32.txt": {
-          "id": "a4953cdc9f264965a07130d2d8abe129",
+          "id": "96141fe93aef40b995c62cd0c7d4c2e5",
           "name": "vocabulary.pdf.partition.32.txt",
           "size": 1001,
           "mime_type": "text/plain",
@@ -618,16 +618,16 @@
           "partition_number": 32,
           "section_number": 0,
           "tags": {},
-          "parent_id": "7b23e727dd1845e58c744848e86055d1",
+          "parent_id": "fea4e2bbde2545e0904745eea31ded69",
           "source_partition_id": "",
           "content_sha256": "5fbc8a2dee273807039a4b06dbe3218a7ec511744fc588ad2d6185bf15e8d676",
           "processed_by": [
             "partition",
-            "gen_embeddings/AI.OpenAI.OpenAITextEmbeddingGenerator/__"
+            "gen_embeddings/AI_Powered_Ticketing_and_Support_System.Service.GeminiEmbeddingGenerator/__"
           ]
         },
         "vocabulary.pdf.partition.33.txt": {
-          "id": "6f7444d28c7a456eb5da6573174fdb40",
+          "id": "f8dcac4c82d444719244c858a7657497",
           "name": "vocabulary.pdf.partition.33.txt",
           "size": 965,
           "mime_type": "text/plain",
@@ -635,16 +635,16 @@
           "partition_number": 33,
           "section_number": 0,
           "tags": {},
-          "parent_id": "7b23e727dd1845e58c744848e86055d1",
+          "parent_id": "fea4e2bbde2545e0904745eea31ded69",
           "source_partition_id": "",
           "content_sha256": "34fce794cdd369ab32936c27aad37004ae32fd5ccbd551bb997d37c53f26df73",
           "processed_by": [
             "partition",
-            "gen_embeddings/AI.OpenAI.OpenAITextEmbeddingGenerator/__"
+            "gen_embeddings/AI_Powered_Ticketing_and_Support_System.Service.GeminiEmbeddingGenerator/__"
           ]
         },
         "vocabulary.pdf.partition.34.txt": {
-          "id": "ff805a2e8c404d7c9c82afc71408ee72",
+          "id": "d8e5faa1edf24f67a82886b3c297394c",
           "name": "vocabulary.pdf.partition.34.txt",
           "size": 1079,
           "mime_type": "text/plain",
@@ -652,16 +652,16 @@
           "partition_number": 34,
           "section_number": 0,
           "tags": {},
-          "parent_id": "7b23e727dd1845e58c744848e86055d1",
+          "parent_id": "fea4e2bbde2545e0904745eea31ded69",
           "source_partition_id": "",
           "content_sha256": "a847693ed18243488c10d76f9ff9e32db2e5f6e35ac7af887a4f97dd8a2836dc",
           "processed_by": [
             "partition",
-            "gen_embeddings/AI.OpenAI.OpenAITextEmbeddingGenerator/__"
+            "gen_embeddings/AI_Powered_Ticketing_and_Support_System.Service.GeminiEmbeddingGenerator/__"
           ]
         },
         "vocabulary.pdf.partition.35.txt": {
-          "id": "8a033ae1d86c4a818e8fe7e630c9f569",
+          "id": "64bda9ae51fc4e229e9717de41df8420",
           "name": "vocabulary.pdf.partition.35.txt",
           "size": 502,
           "mime_type": "text/plain",
@@ -669,620 +669,620 @@
           "partition_number": 35,
           "section_number": 0,
           "tags": {},
-          "parent_id": "7b23e727dd1845e58c744848e86055d1",
+          "parent_id": "fea4e2bbde2545e0904745eea31ded69",
           "source_partition_id": "",
           "content_sha256": "c9bc09b42b8c21e59cc8e7705763734b18c485a8f977087abf8f3f7f29b44967",
           "processed_by": [
             "partition",
-            "gen_embeddings/AI.OpenAI.OpenAITextEmbeddingGenerator/__"
+            "gen_embeddings/AI_Powered_Ticketing_and_Support_System.Service.GeminiEmbeddingGenerator/__"
           ]
         },
-        "vocabulary.pdf.partition.0.txt.AI.OpenAI.OpenAITextEmbeddingGenerator.__.text_embedding": {
-          "id": "8a81b31c8d0f476b903e5f84cc2a278d",
-          "name": "vocabulary.pdf.partition.0.txt.AI.OpenAI.OpenAITextEmbeddingGenerator.__.text_embedding",
-          "size": 9702,
+        "vocabulary.pdf.partition.0.txt.AI_Powered_Ticketing_and_Support_System.Service.GeminiEmbeddingGenerator.__.text_embedding": {
+          "id": "a503a9d697b04f04b25d3c90f29ff0be",
+          "name": "vocabulary.pdf.partition.0.txt.AI_Powered_Ticketing_and_Support_System.Service.GeminiEmbeddingGenerator.__.text_embedding",
+          "size": 39366,
           "mime_type": "float[]",
           "artifact_type": "TextEmbeddingVector",
           "partition_number": 0,
           "section_number": 0,
           "tags": {},
-          "parent_id": "7b23e727dd1845e58c744848e86055d1",
-          "source_partition_id": "783f515fca014ac7b41caf58b6875f81",
+          "parent_id": "fea4e2bbde2545e0904745eea31ded69",
+          "source_partition_id": "7bd58129e0f448dbb5049934aadf5456",
           "content_sha256": "",
           "processed_by": [
             "gen_embeddings",
             "save_records"
           ]
         },
-        "vocabulary.pdf.partition.1.txt.AI.OpenAI.OpenAITextEmbeddingGenerator.__.text_embedding": {
-          "id": "40fd41edf0434c92bd8e42e7acb55080",
-          "name": "vocabulary.pdf.partition.1.txt.AI.OpenAI.OpenAITextEmbeddingGenerator.__.text_embedding",
-          "size": 9687,
+        "vocabulary.pdf.partition.1.txt.AI_Powered_Ticketing_and_Support_System.Service.GeminiEmbeddingGenerator.__.text_embedding": {
+          "id": "ca712abcb2734fa1ab5de1ecd58c6133",
+          "name": "vocabulary.pdf.partition.1.txt.AI_Powered_Ticketing_and_Support_System.Service.GeminiEmbeddingGenerator.__.text_embedding",
+          "size": 39472,
           "mime_type": "float[]",
           "artifact_type": "TextEmbeddingVector",
           "partition_number": 1,
           "section_number": 0,
           "tags": {},
-          "parent_id": "7b23e727dd1845e58c744848e86055d1",
-          "source_partition_id": "8823d7bea3de48849aa1267c41d3f180",
+          "parent_id": "fea4e2bbde2545e0904745eea31ded69",
+          "source_partition_id": "dc0864f119404ee2b152d54333dfdedc",
           "content_sha256": "",
           "processed_by": [
             "gen_embeddings",
             "save_records"
           ]
         },
-        "vocabulary.pdf.partition.2.txt.AI.OpenAI.OpenAITextEmbeddingGenerator.__.text_embedding": {
-          "id": "340c634d2b16490591f5c9a53ed7fac2",
-          "name": "vocabulary.pdf.partition.2.txt.AI.OpenAI.OpenAITextEmbeddingGenerator.__.text_embedding",
-          "size": 9689,
+        "vocabulary.pdf.partition.2.txt.AI_Powered_Ticketing_and_Support_System.Service.GeminiEmbeddingGenerator.__.text_embedding": {
+          "id": "86b3b68fa87546ea898455c09d0ca3df",
+          "name": "vocabulary.pdf.partition.2.txt.AI_Powered_Ticketing_and_Support_System.Service.GeminiEmbeddingGenerator.__.text_embedding",
+          "size": 39436,
           "mime_type": "float[]",
           "artifact_type": "TextEmbeddingVector",
           "partition_number": 2,
           "section_number": 0,
           "tags": {},
-          "parent_id": "7b23e727dd1845e58c744848e86055d1",
-          "source_partition_id": "2849f482fb8b4f8fbfedb6d40453dc4c",
+          "parent_id": "fea4e2bbde2545e0904745eea31ded69",
+          "source_partition_id": "3ef252492bf047b18c1a52bc5caba834",
           "content_sha256": "",
           "processed_by": [
             "gen_embeddings",
             "save_records"
           ]
         },
-        "vocabulary.pdf.partition.3.txt.AI.OpenAI.OpenAITextEmbeddingGenerator.__.text_embedding": {
-          "id": "e2c15f57926643e2a07e90a0fd2ec879",
-          "name": "vocabulary.pdf.partition.3.txt.AI.OpenAI.OpenAITextEmbeddingGenerator.__.text_embedding",
-          "size": 9729,
+        "vocabulary.pdf.partition.3.txt.AI_Powered_Ticketing_and_Support_System.Service.GeminiEmbeddingGenerator.__.text_embedding": {
+          "id": "f2d0ee383eb3479eb8c421669ff88e11",
+          "name": "vocabulary.pdf.partition.3.txt.AI_Powered_Ticketing_and_Support_System.Service.GeminiEmbeddingGenerator.__.text_embedding",
+          "size": 39390,
           "mime_type": "float[]",
           "artifact_type": "TextEmbeddingVector",
           "partition_number": 3,
           "section_number": 0,
           "tags": {},
-          "parent_id": "7b23e727dd1845e58c744848e86055d1",
-          "source_partition_id": "044aef471d6d4bf986542eafa69beead",
+          "parent_id": "fea4e2bbde2545e0904745eea31ded69",
+          "source_partition_id": "d040605614ab423585cda24e6040ff83",
           "content_sha256": "",
           "processed_by": [
             "gen_embeddings",
             "save_records"
           ]
         },
-        "vocabulary.pdf.partition.4.txt.AI.OpenAI.OpenAITextEmbeddingGenerator.__.text_embedding": {
-          "id": "2eef56e960714fa1b6168d6e92e284f3",
-          "name": "vocabulary.pdf.partition.4.txt.AI.OpenAI.OpenAITextEmbeddingGenerator.__.text_embedding",
-          "size": 9711,
+        "vocabulary.pdf.partition.4.txt.AI_Powered_Ticketing_and_Support_System.Service.GeminiEmbeddingGenerator.__.text_embedding": {
+          "id": "198b78c42f1f4aa19ef8cc834b97b96d",
+          "name": "vocabulary.pdf.partition.4.txt.AI_Powered_Ticketing_and_Support_System.Service.GeminiEmbeddingGenerator.__.text_embedding",
+          "size": 39377,
           "mime_type": "float[]",
           "artifact_type": "TextEmbeddingVector",
           "partition_number": 4,
           "section_number": 0,
           "tags": {},
-          "parent_id": "7b23e727dd1845e58c744848e86055d1",
-          "source_partition_id": "f38544c26d2240dc9af3a14ebc78dfd7",
+          "parent_id": "fea4e2bbde2545e0904745eea31ded69",
+          "source_partition_id": "96efd1c2c10a4ce7b27ebcabce1ce5c0",
           "content_sha256": "",
           "processed_by": [
             "gen_embeddings",
             "save_records"
           ]
         },
-        "vocabulary.pdf.partition.5.txt.AI.OpenAI.OpenAITextEmbeddingGenerator.__.text_embedding": {
-          "id": "a6b00e7fdadc40b1834eff7385cba164",
-          "name": "vocabulary.pdf.partition.5.txt.AI.OpenAI.OpenAITextEmbeddingGenerator.__.text_embedding",
-          "size": 9718,
+        "vocabulary.pdf.partition.5.txt.AI_Powered_Ticketing_and_Support_System.Service.GeminiEmbeddingGenerator.__.text_embedding": {
+          "id": "d1a18c81befc4272a9447ed962800e7b",
+          "name": "vocabulary.pdf.partition.5.txt.AI_Powered_Ticketing_and_Support_System.Service.GeminiEmbeddingGenerator.__.text_embedding",
+          "size": 39422,
           "mime_type": "float[]",
           "artifact_type": "TextEmbeddingVector",
           "partition_number": 5,
           "section_number": 0,
           "tags": {},
-          "parent_id": "7b23e727dd1845e58c744848e86055d1",
-          "source_partition_id": "c2a4b96ff4ea41d8937cfefae7010e82",
+          "parent_id": "fea4e2bbde2545e0904745eea31ded69",
+          "source_partition_id": "4ed4f3d59c624ea79ac08a97ae40d21a",
           "content_sha256": "",
           "processed_by": [
             "gen_embeddings",
             "save_records"
           ]
         },
-        "vocabulary.pdf.partition.6.txt.AI.OpenAI.OpenAITextEmbeddingGenerator.__.text_embedding": {
-          "id": "0135f64fbb124413b8cf2ce558de7f2d",
-          "name": "vocabulary.pdf.partition.6.txt.AI.OpenAI.OpenAITextEmbeddingGenerator.__.text_embedding",
-          "size": 9724,
+        "vocabulary.pdf.partition.6.txt.AI_Powered_Ticketing_and_Support_System.Service.GeminiEmbeddingGenerator.__.text_embedding": {
+          "id": "e6f75d51ec6e42d680a364bd4056522d",
+          "name": "vocabulary.pdf.partition.6.txt.AI_Powered_Ticketing_and_Support_System.Service.GeminiEmbeddingGenerator.__.text_embedding",
+          "size": 39394,
           "mime_type": "float[]",
           "artifact_type": "TextEmbeddingVector",
           "partition_number": 6,
           "section_number": 0,
           "tags": {},
-          "parent_id": "7b23e727dd1845e58c744848e86055d1",
-          "source_partition_id": "32740eace06d4190adcadc11c5b74a31",
+          "parent_id": "fea4e2bbde2545e0904745eea31ded69",
+          "source_partition_id": "7465667eee1741ebb21c3580b2d09a1d",
           "content_sha256": "",
           "processed_by": [
             "gen_embeddings",
             "save_records"
           ]
         },
-        "vocabulary.pdf.partition.7.txt.AI.OpenAI.OpenAITextEmbeddingGenerator.__.text_embedding": {
-          "id": "731cf48d50fb4d1eb730489fbb4d9371",
-          "name": "vocabulary.pdf.partition.7.txt.AI.OpenAI.OpenAITextEmbeddingGenerator.__.text_embedding",
-          "size": 9696,
+        "vocabulary.pdf.partition.7.txt.AI_Powered_Ticketing_and_Support_System.Service.GeminiEmbeddingGenerator.__.text_embedding": {
+          "id": "68c949b1977647af97bd8872988283cd",
+          "name": "vocabulary.pdf.partition.7.txt.AI_Powered_Ticketing_and_Support_System.Service.GeminiEmbeddingGenerator.__.text_embedding",
+          "size": 39381,
           "mime_type": "float[]",
           "artifact_type": "TextEmbeddingVector",
           "partition_number": 7,
           "section_number": 0,
           "tags": {},
-          "parent_id": "7b23e727dd1845e58c744848e86055d1",
-          "source_partition_id": "61332c75ae28440580e5bcaf7c88248a",
+          "parent_id": "fea4e2bbde2545e0904745eea31ded69",
+          "source_partition_id": "5f4c08b27b4a44e18a2cb0480363b105",
           "content_sha256": "",
           "processed_by": [
             "gen_embeddings",
             "save_records"
           ]
         },
-        "vocabulary.pdf.partition.8.txt.AI.OpenAI.OpenAITextEmbeddingGenerator.__.text_embedding": {
-          "id": "3e1c6a04c8a142ac870b034f6dede126",
-          "name": "vocabulary.pdf.partition.8.txt.AI.OpenAI.OpenAITextEmbeddingGenerator.__.text_embedding",
-          "size": 9701,
+        "vocabulary.pdf.partition.8.txt.AI_Powered_Ticketing_and_Support_System.Service.GeminiEmbeddingGenerator.__.text_embedding": {
+          "id": "d8c1b210839b4f2faa717135d980801b",
+          "name": "vocabulary.pdf.partition.8.txt.AI_Powered_Ticketing_and_Support_System.Service.GeminiEmbeddingGenerator.__.text_embedding",
+          "size": 39396,
           "mime_type": "float[]",
           "artifact_type": "TextEmbeddingVector",
           "partition_number": 8,
           "section_number": 0,
           "tags": {},
-          "parent_id": "7b23e727dd1845e58c744848e86055d1",
-          "source_partition_id": "5c48cc993bf448f4b616bb9443f21335",
+          "parent_id": "fea4e2bbde2545e0904745eea31ded69",
+          "source_partition_id": "e815e7756d1740f7aa1ffb67e4b32c24",
           "content_sha256": "",
           "processed_by": [
             "gen_embeddings",
             "save_records"
           ]
         },
-        "vocabulary.pdf.partition.9.txt.AI.OpenAI.OpenAITextEmbeddingGenerator.__.text_embedding": {
-          "id": "ad6a204ccaae4a468e57876cd099bd9e",
-          "name": "vocabulary.pdf.partition.9.txt.AI.OpenAI.OpenAITextEmbeddingGenerator.__.text_embedding",
-          "size": 9736,
+        "vocabulary.pdf.partition.9.txt.AI_Powered_Ticketing_and_Support_System.Service.GeminiEmbeddingGenerator.__.text_embedding": {
+          "id": "1cf5bb19846b4a77a562b6666992b984",
+          "name": "vocabulary.pdf.partition.9.txt.AI_Powered_Ticketing_and_Support_System.Service.GeminiEmbeddingGenerator.__.text_embedding",
+          "size": 39413,
           "mime_type": "float[]",
           "artifact_type": "TextEmbeddingVector",
           "partition_number": 9,
           "section_number": 0,
           "tags": {},
-          "parent_id": "7b23e727dd1845e58c744848e86055d1",
-          "source_partition_id": "8ab530f020c74ffc97149f367cd6f1c2",
+          "parent_id": "fea4e2bbde2545e0904745eea31ded69",
+          "source_partition_id": "b683195fd7ac441c924afd8c2129a0d9",
           "content_sha256": "",
           "processed_by": [
             "gen_embeddings",
             "save_records"
           ]
         },
-        "vocabulary.pdf.partition.10.txt.AI.OpenAI.OpenAITextEmbeddingGenerator.__.text_embedding": {
-          "id": "f7a6af14800b4e30846fa3e37ab50fe4",
-          "name": "vocabulary.pdf.partition.10.txt.AI.OpenAI.OpenAITextEmbeddingGenerator.__.text_embedding",
-          "size": 9711,
+        "vocabulary.pdf.partition.10.txt.AI_Powered_Ticketing_and_Support_System.Service.GeminiEmbeddingGenerator.__.text_embedding": {
+          "id": "22ab63997db149cb85679d50c4589c72",
+          "name": "vocabulary.pdf.partition.10.txt.AI_Powered_Ticketing_and_Support_System.Service.GeminiEmbeddingGenerator.__.text_embedding",
+          "size": 39449,
           "mime_type": "float[]",
           "artifact_type": "TextEmbeddingVector",
           "partition_number": 10,
           "section_number": 0,
           "tags": {},
-          "parent_id": "7b23e727dd1845e58c744848e86055d1",
-          "source_partition_id": "4e8a2a9d85e74abfbfbf71ab002c6809",
+          "parent_id": "fea4e2bbde2545e0904745eea31ded69",
+          "source_partition_id": "5e4e3a6895e74d3b8b03ab218c79d227",
           "content_sha256": "",
           "processed_by": [
             "gen_embeddings",
             "save_records"
           ]
         },
-        "vocabulary.pdf.partition.11.txt.AI.OpenAI.OpenAITextEmbeddingGenerator.__.text_embedding": {
-          "id": "c1190fd3091d4d3ba65f0e88b5064e49",
-          "name": "vocabulary.pdf.partition.11.txt.AI.OpenAI.OpenAITextEmbeddingGenerator.__.text_embedding",
-          "size": 9707,
+        "vocabulary.pdf.partition.11.txt.AI_Powered_Ticketing_and_Support_System.Service.GeminiEmbeddingGenerator.__.text_embedding": {
+          "id": "bfebb97119bf4efb977d9d9b78be67a8",
+          "name": "vocabulary.pdf.partition.11.txt.AI_Powered_Ticketing_and_Support_System.Service.GeminiEmbeddingGenerator.__.text_embedding",
+          "size": 39434,
           "mime_type": "float[]",
           "artifact_type": "TextEmbeddingVector",
           "partition_number": 11,
           "section_number": 0,
           "tags": {},
-          "parent_id": "7b23e727dd1845e58c744848e86055d1",
-          "source_partition_id": "6a66b0a522bf4368bae1fe2bbf019496",
+          "parent_id": "fea4e2bbde2545e0904745eea31ded69",
+          "source_partition_id": "36e20c1ae76943b29ddc9f363a9928d2",
           "content_sha256": "",
           "processed_by": [
             "gen_embeddings",
             "save_records"
           ]
         },
-        "vocabulary.pdf.partition.12.txt.AI.OpenAI.OpenAITextEmbeddingGenerator.__.text_embedding": {
-          "id": "6a9a7161053e4d5fa0b9b9549fab61a4",
-          "name": "vocabulary.pdf.partition.12.txt.AI.OpenAI.OpenAITextEmbeddingGenerator.__.text_embedding",
-          "size": 9684,
+        "vocabulary.pdf.partition.12.txt.AI_Powered_Ticketing_and_Support_System.Service.GeminiEmbeddingGenerator.__.text_embedding": {
+          "id": "61aca74b91274986be9bffef1e54989d",
+          "name": "vocabulary.pdf.partition.12.txt.AI_Powered_Ticketing_and_Support_System.Service.GeminiEmbeddingGenerator.__.text_embedding",
+          "size": 39361,
           "mime_type": "float[]",
           "artifact_type": "TextEmbeddingVector",
           "partition_number": 12,
           "section_number": 0,
           "tags": {},
-          "parent_id": "7b23e727dd1845e58c744848e86055d1",
-          "source_partition_id": "628e00f5cd8a4227883e27fdffecfbb0",
+          "parent_id": "fea4e2bbde2545e0904745eea31ded69",
+          "source_partition_id": "24d128db9e6544cea448f2f385fe7dcb",
           "content_sha256": "",
           "processed_by": [
             "gen_embeddings",
             "save_records"
           ]
         },
-        "vocabulary.pdf.partition.13.txt.AI.OpenAI.OpenAITextEmbeddingGenerator.__.text_embedding": {
-          "id": "ba5c2e65310f477facfa6f1ebf8e235c",
-          "name": "vocabulary.pdf.partition.13.txt.AI.OpenAI.OpenAITextEmbeddingGenerator.__.text_embedding",
-          "size": 9744,
+        "vocabulary.pdf.partition.13.txt.AI_Powered_Ticketing_and_Support_System.Service.GeminiEmbeddingGenerator.__.text_embedding": {
+          "id": "0351991c8baa4993928622b19c45fcfa",
+          "name": "vocabulary.pdf.partition.13.txt.AI_Powered_Ticketing_and_Support_System.Service.GeminiEmbeddingGenerator.__.text_embedding",
+          "size": 39483,
           "mime_type": "float[]",
           "artifact_type": "TextEmbeddingVector",
           "partition_number": 13,
           "section_number": 0,
           "tags": {},
-          "parent_id": "7b23e727dd1845e58c744848e86055d1",
-          "source_partition_id": "9d328d8eaa5b4760a53e4e6176c576ee",
+          "parent_id": "fea4e2bbde2545e0904745eea31ded69",
+          "source_partition_id": "37bab3ffed6444949642982fd8e42fdf",
           "content_sha256": "",
           "processed_by": [
             "gen_embeddings",
             "save_records"
           ]
         },
-        "vocabulary.pdf.partition.14.txt.AI.OpenAI.OpenAITextEmbeddingGenerator.__.text_embedding": {
-          "id": "524d82ac89c2494f83c68d5a9071dbbd",
-          "name": "vocabulary.pdf.partition.14.txt.AI.OpenAI.OpenAITextEmbeddingGenerator.__.text_embedding",
-          "size": 9709,
+        "vocabulary.pdf.partition.14.txt.AI_Powered_Ticketing_and_Support_System.Service.GeminiEmbeddingGenerator.__.text_embedding": {
+          "id": "a1c3c65cd0e743baaade450d829cab75",
+          "name": "vocabulary.pdf.partition.14.txt.AI_Powered_Ticketing_and_Support_System.Service.GeminiEmbeddingGenerator.__.text_embedding",
+          "size": 39488,
           "mime_type": "float[]",
           "artifact_type": "TextEmbeddingVector",
           "partition_number": 14,
           "section_number": 0,
           "tags": {},
-          "parent_id": "7b23e727dd1845e58c744848e86055d1",
-          "source_partition_id": "42a8d531dcd0456fb31c20898083f5cb",
+          "parent_id": "fea4e2bbde2545e0904745eea31ded69",
+          "source_partition_id": "a9f0c6ab722f45c88b68a1197750631f",
           "content_sha256": "",
           "processed_by": [
             "gen_embeddings",
             "save_records"
           ]
         },
-        "vocabulary.pdf.partition.15.txt.AI.OpenAI.OpenAITextEmbeddingGenerator.__.text_embedding": {
-          "id": "29b122ca310a4d179a7c92588ae76f42",
-          "name": "vocabulary.pdf.partition.15.txt.AI.OpenAI.OpenAITextEmbeddingGenerator.__.text_embedding",
-          "size": 9736,
+        "vocabulary.pdf.partition.15.txt.AI_Powered_Ticketing_and_Support_System.Service.GeminiEmbeddingGenerator.__.text_embedding": {
+          "id": "b1efc0c33f8744698791702b8f2dadff",
+          "name": "vocabulary.pdf.partition.15.txt.AI_Powered_Ticketing_and_Support_System.Service.GeminiEmbeddingGenerator.__.text_embedding",
+          "size": 39360,
           "mime_type": "float[]",
           "artifact_type": "TextEmbeddingVector",
           "partition_number": 15,
           "section_number": 0,
           "tags": {},
-          "parent_id": "7b23e727dd1845e58c744848e86055d1",
-          "source_partition_id": "25df077f59b1469bb6052539fabd55cf",
+          "parent_id": "fea4e2bbde2545e0904745eea31ded69",
+          "source_partition_id": "9e0d48f5205f45869407dd4b33803ce5",
           "content_sha256": "",
           "processed_by": [
             "gen_embeddings",
             "save_records"
           ]
         },
-        "vocabulary.pdf.partition.16.txt.AI.OpenAI.OpenAITextEmbeddingGenerator.__.text_embedding": {
-          "id": "ad5b675e23504c549ee513025ae4007c",
-          "name": "vocabulary.pdf.partition.16.txt.AI.OpenAI.OpenAITextEmbeddingGenerator.__.text_embedding",
-          "size": 9737,
+        "vocabulary.pdf.partition.16.txt.AI_Powered_Ticketing_and_Support_System.Service.GeminiEmbeddingGenerator.__.text_embedding": {
+          "id": "2c6418121f7b41518665594fb5857f64",
+          "name": "vocabulary.pdf.partition.16.txt.AI_Powered_Ticketing_and_Support_System.Service.GeminiEmbeddingGenerator.__.text_embedding",
+          "size": 39426,
           "mime_type": "float[]",
           "artifact_type": "TextEmbeddingVector",
           "partition_number": 16,
           "section_number": 0,
           "tags": {},
-          "parent_id": "7b23e727dd1845e58c744848e86055d1",
-          "source_partition_id": "aa0d2179907d401aad326018831778a2",
+          "parent_id": "fea4e2bbde2545e0904745eea31ded69",
+          "source_partition_id": "f37936a93baa464c8394c17c998b12f6",
           "content_sha256": "",
           "processed_by": [
             "gen_embeddings",
             "save_records"
           ]
         },
-        "vocabulary.pdf.partition.17.txt.AI.OpenAI.OpenAITextEmbeddingGenerator.__.text_embedding": {
-          "id": "2c25e488338e4e10ab9207c8bc915ab8",
-          "name": "vocabulary.pdf.partition.17.txt.AI.OpenAI.OpenAITextEmbeddingGenerator.__.text_embedding",
-          "size": 9705,
+        "vocabulary.pdf.partition.17.txt.AI_Powered_Ticketing_and_Support_System.Service.GeminiEmbeddingGenerator.__.text_embedding": {
+          "id": "64a97b65788142a7ad1d3cf48c4b6d9e",
+          "name": "vocabulary.pdf.partition.17.txt.AI_Powered_Ticketing_and_Support_System.Service.GeminiEmbeddingGenerator.__.text_embedding",
+          "size": 39356,
           "mime_type": "float[]",
           "artifact_type": "TextEmbeddingVector",
           "partition_number": 17,
           "section_number": 0,
           "tags": {},
-          "parent_id": "7b23e727dd1845e58c744848e86055d1",
-          "source_partition_id": "660274c122e44325b62e94e54eb99b79",
+          "parent_id": "fea4e2bbde2545e0904745eea31ded69",
+          "source_partition_id": "bc52196eda8843c9a35433deaf8ec999",
           "content_sha256": "",
           "processed_by": [
             "gen_embeddings",
             "save_records"
           ]
         },
-        "vocabulary.pdf.partition.18.txt.AI.OpenAI.OpenAITextEmbeddingGenerator.__.text_embedding": {
-          "id": "25db34a980e8406294caa4ea96771a34",
-          "name": "vocabulary.pdf.partition.18.txt.AI.OpenAI.OpenAITextEmbeddingGenerator.__.text_embedding",
-          "size": 9703,
+        "vocabulary.pdf.partition.18.txt.AI_Powered_Ticketing_and_Support_System.Service.GeminiEmbeddingGenerator.__.text_embedding": {
+          "id": "671081f9c53d4f349215f200d93bfeb4",
+          "name": "vocabulary.pdf.partition.18.txt.AI_Powered_Ticketing_and_Support_System.Service.GeminiEmbeddingGenerator.__.text_embedding",
+          "size": 39326,
           "mime_type": "float[]",
           "artifact_type": "TextEmbeddingVector",
           "partition_number": 18,
           "section_number": 0,
           "tags": {},
-          "parent_id": "7b23e727dd1845e58c744848e86055d1",
-          "source_partition_id": "419fae93be2c45b0a32a1b723c90f506",
+          "parent_id": "fea4e2bbde2545e0904745eea31ded69",
+          "source_partition_id": "2518bc9edf544753b059bd95a365b98c",
           "content_sha256": "",
           "processed_by": [
             "gen_embeddings",
             "save_records"
           ]
         },
-        "vocabulary.pdf.partition.19.txt.AI.OpenAI.OpenAITextEmbeddingGenerator.__.text_embedding": {
-          "id": "e6ebd867f3154eeea6976e2f8cb9d5f4",
-          "name": "vocabulary.pdf.partition.19.txt.AI.OpenAI.OpenAITextEmbeddingGenerator.__.text_embedding",
-          "size": 9695,
+        "vocabulary.pdf.partition.19.txt.AI_Powered_Ticketing_and_Support_System.Service.GeminiEmbeddingGenerator.__.text_embedding": {
+          "id": "980b1634304f49d1baa288b520166c98",
+          "name": "vocabulary.pdf.partition.19.txt.AI_Powered_Ticketing_and_Support_System.Service.GeminiEmbeddingGenerator.__.text_embedding",
+          "size": 39376,
           "mime_type": "float[]",
           "artifact_type": "TextEmbeddingVector",
           "partition_number": 19,
           "section_number": 0,
           "tags": {},
-          "parent_id": "7b23e727dd1845e58c744848e86055d1",
-          "source_partition_id": "a04e996e50c24200a8df67694ccab4c1",
+          "parent_id": "fea4e2bbde2545e0904745eea31ded69",
+          "source_partition_id": "d3b025264c6a4cceb82f76c5b95439e2",
           "content_sha256": "",
           "processed_by": [
             "gen_embeddings",
             "save_records"
           ]
         },
-        "vocabulary.pdf.partition.20.txt.AI.OpenAI.OpenAITextEmbeddingGenerator.__.text_embedding": {
-          "id": "b7fa857d600248d88c66b470bf1e17f4",
-          "name": "vocabulary.pdf.partition.20.txt.AI.OpenAI.OpenAITextEmbeddingGenerator.__.text_embedding",
-          "size": 9733,
+        "vocabulary.pdf.partition.20.txt.AI_Powered_Ticketing_and_Support_System.Service.GeminiEmbeddingGenerator.__.text_embedding": {
+          "id": "93e9a676d653403fac6ee57375c8bf31",
+          "name": "vocabulary.pdf.partition.20.txt.AI_Powered_Ticketing_and_Support_System.Service.GeminiEmbeddingGenerator.__.text_embedding",
+          "size": 39467,
           "mime_type": "float[]",
           "artifact_type": "TextEmbeddingVector",
           "partition_number": 20,
           "section_number": 0,
           "tags": {},
-          "parent_id": "7b23e727dd1845e58c744848e86055d1",
-          "source_partition_id": "72e856dbaecc47da9253a7772c896f5f",
+          "parent_id": "fea4e2bbde2545e0904745eea31ded69",
+          "source_partition_id": "141a8dad95934285a74b43a25f08cf9a",
           "content_sha256": "",
           "processed_by": [
             "gen_embeddings",
             "save_records"
           ]
         },
-        "vocabulary.pdf.partition.21.txt.AI.OpenAI.OpenAITextEmbeddingGenerator.__.text_embedding": {
-          "id": "c277e84272e1438ab501c6edbe5913ee",
-          "name": "vocabulary.pdf.partition.21.txt.AI.OpenAI.OpenAITextEmbeddingGenerator.__.text_embedding",
-          "size": 9705,
+        "vocabulary.pdf.partition.21.txt.AI_Powered_Ticketing_and_Support_System.Service.GeminiEmbeddingGenerator.__.text_embedding": {
+          "id": "3cc6a3c26a574881af39402b5cf2141e",
+          "name": "vocabulary.pdf.partition.21.txt.AI_Powered_Ticketing_and_Support_System.Service.GeminiEmbeddingGenerator.__.text_embedding",
+          "size": 39453,
           "mime_type": "float[]",
           "artifact_type": "TextEmbeddingVector",
           "partition_number": 21,
           "section_number": 0,
           "tags": {},
-          "parent_id": "7b23e727dd1845e58c744848e86055d1",
-          "source_partition_id": "0175df51849647b393a469b80c68f6f9",
+          "parent_id": "fea4e2bbde2545e0904745eea31ded69",
+          "source_partition_id": "69c8abb3348b49adb79ad24994439166",
           "content_sha256": "",
           "processed_by": [
             "gen_embeddings",
             "save_records"
           ]
         },
-        "vocabulary.pdf.partition.22.txt.AI.OpenAI.OpenAITextEmbeddingGenerator.__.text_embedding": {
-          "id": "34286196bb2f4e718e412cac4c2a838f",
-          "name": "vocabulary.pdf.partition.22.txt.AI.OpenAI.OpenAITextEmbeddingGenerator.__.text_embedding",
-          "size": 9731,
+        "vocabulary.pdf.partition.22.txt.AI_Powered_Ticketing_and_Support_System.Service.GeminiEmbeddingGenerator.__.text_embedding": {
+          "id": "eee307e3b0174d43b3475501582229bd",
+          "name": "vocabulary.pdf.partition.22.txt.AI_Powered_Ticketing_and_Support_System.Service.GeminiEmbeddingGenerator.__.text_embedding",
+          "size": 39393,
           "mime_type": "float[]",
           "artifact_type": "TextEmbeddingVector",
           "partition_number": 22,
           "section_number": 0,
           "tags": {},
-          "parent_id": "7b23e727dd1845e58c744848e86055d1",
-          "source_partition_id": "acacde0b6a734fada165595e2352e07e",
+          "parent_id": "fea4e2bbde2545e0904745eea31ded69",
+          "source_partition_id": "57df6fab9e3a4800950f5f408a99f69f",
           "content_sha256": "",
           "processed_by": [
             "gen_embeddings",
             "save_records"
           ]
         },
-        "vocabulary.pdf.partition.23.txt.AI.OpenAI.OpenAITextEmbeddingGenerator.__.text_embedding": {
-          "id": "3f5b69347daf49d8925b044003da84b7",
-          "name": "vocabulary.pdf.partition.23.txt.AI.OpenAI.OpenAITextEmbeddingGenerator.__.text_embedding",
-          "size": 9704,
+        "vocabulary.pdf.partition.23.txt.AI_Powered_Ticketing_and_Support_System.Service.GeminiEmbeddingGenerator.__.text_embedding": {
+          "id": "e83466ae69f74138a0391c582d4f4451",
+          "name": "vocabulary.pdf.partition.23.txt.AI_Powered_Ticketing_and_Support_System.Service.GeminiEmbeddingGenerator.__.text_embedding",
+          "size": 39401,
           "mime_type": "float[]",
           "artifact_type": "TextEmbeddingVector",
           "partition_number": 23,
           "section_number": 0,
           "tags": {},
-          "parent_id": "7b23e727dd1845e58c744848e86055d1",
-          "source_partition_id": "3f9cdc065f3341349001cf06e2c48b4e",
+          "parent_id": "fea4e2bbde2545e0904745eea31ded69",
+          "source_partition_id": "5c6dff9ec7cd4a5d913d4421ea6b1352",
           "content_sha256": "",
           "processed_by": [
             "gen_embeddings",
             "save_records"
           ]
         },
-        "vocabulary.pdf.partition.24.txt.AI.OpenAI.OpenAITextEmbeddingGenerator.__.text_embedding": {
-          "id": "e5326a11af324614af0120df8de38821",
-          "name": "vocabulary.pdf.partition.24.txt.AI.OpenAI.OpenAITextEmbeddingGenerator.__.text_embedding",
-          "size": 9699,
+        "vocabulary.pdf.partition.24.txt.AI_Powered_Ticketing_and_Support_System.Service.GeminiEmbeddingGenerator.__.text_embedding": {
+          "id": "d48bc26936f9473fbb2c521f16a2c89a",
+          "name": "vocabulary.pdf.partition.24.txt.AI_Powered_Ticketing_and_Support_System.Service.GeminiEmbeddingGenerator.__.text_embedding",
+          "size": 39377,
           "mime_type": "float[]",
           "artifact_type": "TextEmbeddingVector",
           "partition_number": 24,
           "section_number": 0,
           "tags": {},
-          "parent_id": "7b23e727dd1845e58c744848e86055d1",
-          "source_partition_id": "a9261a05f5a149cfbb11072c6cc1923f",
+          "parent_id": "fea4e2bbde2545e0904745eea31ded69",
+          "source_partition_id": "ec2ed05acbf34da599b813edae4a772a",
           "content_sha256": "",
           "processed_by": [
             "gen_embeddings",
             "save_records"
           ]
         },
-        "vocabulary.pdf.partition.25.txt.AI.OpenAI.OpenAITextEmbeddingGenerator.__.text_embedding": {
-          "id": "359d7a837c9e429a8538c20991fa3bb6",
-          "name": "vocabulary.pdf.partition.25.txt.AI.OpenAI.OpenAITextEmbeddingGenerator.__.text_embedding",
-          "size": 9736,
+        "vocabulary.pdf.partition.25.txt.AI_Powered_Ticketing_and_Support_System.Service.GeminiEmbeddingGenerator.__.text_embedding": {
+          "id": "7c128f89f06c43a9bf96c6467be5a4e5",
+          "name": "vocabulary.pdf.partition.25.txt.AI_Powered_Ticketing_and_Support_System.Service.GeminiEmbeddingGenerator.__.text_embedding",
+          "size": 39442,
           "mime_type": "float[]",
           "artifact_type": "TextEmbeddingVector",
           "partition_number": 25,
           "section_number": 0,
           "tags": {},
-          "parent_id": "7b23e727dd1845e58c744848e86055d1",
-          "source_partition_id": "4f6067467ba54e8f950e8b5808176f7b",
+          "parent_id": "fea4e2bbde2545e0904745eea31ded69",
+          "source_partition_id": "3bf4fdb5d6964dd695c979e59892a15d",
           "content_sha256": "",
           "processed_by": [
             "gen_embeddings",
             "save_records"
           ]
         },
-        "vocabulary.pdf.partition.26.txt.AI.OpenAI.OpenAITextEmbeddingGenerator.__.text_embedding": {
-          "id": "5f782adb4e0541c38a63ebe4c3e921a4",
-          "name": "vocabulary.pdf.partition.26.txt.AI.OpenAI.OpenAITextEmbeddingGenerator.__.text_embedding",
-          "size": 9719,
+        "vocabulary.pdf.partition.26.txt.AI_Powered_Ticketing_and_Support_System.Service.GeminiEmbeddingGenerator.__.text_embedding": {
+          "id": "d400563516ce4adab0de4db571b796c5",
+          "name": "vocabulary.pdf.partition.26.txt.AI_Powered_Ticketing_and_Support_System.Service.GeminiEmbeddingGenerator.__.text_embedding",
+          "size": 39389,
           "mime_type": "float[]",
           "artifact_type": "TextEmbeddingVector",
           "partition_number": 26,
           "section_number": 0,
           "tags": {},
-          "parent_id": "7b23e727dd1845e58c744848e86055d1",
-          "source_partition_id": "8d6f9b8882764dd48cf6d498adfbc322",
+          "parent_id": "fea4e2bbde2545e0904745eea31ded69",
+          "source_partition_id": "1fc14267f6da4ae39ea45d79d791633d",
           "content_sha256": "",
           "processed_by": [
             "gen_embeddings",
             "save_records"
           ]
         },
-        "vocabulary.pdf.partition.27.txt.AI.OpenAI.OpenAITextEmbeddingGenerator.__.text_embedding": {
-          "id": "3120f6b89b38434fb0aa25bd9f2dc282",
-          "name": "vocabulary.pdf.partition.27.txt.AI.OpenAI.OpenAITextEmbeddingGenerator.__.text_embedding",
-          "size": 9742,
+        "vocabulary.pdf.partition.27.txt.AI_Powered_Ticketing_and_Support_System.Service.GeminiEmbeddingGenerator.__.text_embedding": {
+          "id": "0610e4d04ea24607bbb587028afb784b",
+          "name": "vocabulary.pdf.partition.27.txt.AI_Powered_Ticketing_and_Support_System.Service.GeminiEmbeddingGenerator.__.text_embedding",
+          "size": 39413,
           "mime_type": "float[]",
           "artifact_type": "TextEmbeddingVector",
           "partition_number": 27,
           "section_number": 0,
           "tags": {},
-          "parent_id": "7b23e727dd1845e58c744848e86055d1",
-          "source_partition_id": "977ba219b16c4385bff6ca95ba9377d8",
+          "parent_id": "fea4e2bbde2545e0904745eea31ded69",
+          "source_partition_id": "eb95786e812e45588d4be78935535a70",
           "content_sha256": "",
           "processed_by": [
             "gen_embeddings",
             "save_records"
           ]
         },
-        "vocabulary.pdf.partition.28.txt.AI.OpenAI.OpenAITextEmbeddingGenerator.__.text_embedding": {
-          "id": "d9d90410a31f4e59a9acda948dc690e2",
-          "name": "vocabulary.pdf.partition.28.txt.AI.OpenAI.OpenAITextEmbeddingGenerator.__.text_embedding",
-          "size": 9732,
+        "vocabulary.pdf.partition.28.txt.AI_Powered_Ticketing_and_Support_System.Service.GeminiEmbeddingGenerator.__.text_embedding": {
+          "id": "7f32c3ad7d004c83a8000ba30409e401",
+          "name": "vocabulary.pdf.partition.28.txt.AI_Powered_Ticketing_and_Support_System.Service.GeminiEmbeddingGenerator.__.text_embedding",
+          "size": 39371,
           "mime_type": "float[]",
           "artifact_type": "TextEmbeddingVector",
           "partition_number": 28,
           "section_number": 0,
           "tags": {},
-          "parent_id": "7b23e727dd1845e58c744848e86055d1",
-          "source_partition_id": "e60a4cdbd62549e5b02da75dd75763b1",
+          "parent_id": "fea4e2bbde2545e0904745eea31ded69",
+          "source_partition_id": "3fcd398ef0d8490d8c0bcfe796e3b315",
           "content_sha256": "",
           "processed_by": [
             "gen_embeddings",
             "save_records"
           ]
         },
-        "vocabulary.pdf.partition.29.txt.AI.OpenAI.OpenAITextEmbeddingGenerator.__.text_embedding": {
-          "id": "6b2d49f6c1fa471b95eea35860eb4a63",
-          "name": "vocabulary.pdf.partition.29.txt.AI.OpenAI.OpenAITextEmbeddingGenerator.__.text_embedding",
-          "size": 9718,
+        "vocabulary.pdf.partition.29.txt.AI_Powered_Ticketing_and_Support_System.Service.GeminiEmbeddingGenerator.__.text_embedding": {
+          "id": "905794b51cd04847bb668a19f9f01c40",
+          "name": "vocabulary.pdf.partition.29.txt.AI_Powered_Ticketing_and_Support_System.Service.GeminiEmbeddingGenerator.__.text_embedding",
+          "size": 39398,
           "mime_type": "float[]",
           "artifact_type": "TextEmbeddingVector",
           "partition_number": 29,
           "section_number": 0,
           "tags": {},
-          "parent_id": "7b23e727dd1845e58c744848e86055d1",
-          "source_partition_id": "110b96d32e9a473488c8735dbe54398a",
+          "parent_id": "fea4e2bbde2545e0904745eea31ded69",
+          "source_partition_id": "46b101a17eaa429ea09fe005eaf930a4",
           "content_sha256": "",
           "processed_by": [
             "gen_embeddings",
             "save_records"
           ]
         },
-        "vocabulary.pdf.partition.30.txt.AI.OpenAI.OpenAITextEmbeddingGenerator.__.text_embedding": {
-          "id": "1bef2c8b4af541e48a3a57310f57b5a5",
-          "name": "vocabulary.pdf.partition.30.txt.AI.OpenAI.OpenAITextEmbeddingGenerator.__.text_embedding",
-          "size": 9706,
+        "vocabulary.pdf.partition.30.txt.AI_Powered_Ticketing_and_Support_System.Service.GeminiEmbeddingGenerator.__.text_embedding": {
+          "id": "fef44d12d2e24b59a782aaf4343674fb",
+          "name": "vocabulary.pdf.partition.30.txt.AI_Powered_Ticketing_and_Support_System.Service.GeminiEmbeddingGenerator.__.text_embedding",
+          "size": 39364,
           "mime_type": "float[]",
           "artifact_type": "TextEmbeddingVector",
           "partition_number": 30,
           "section_number": 0,
           "tags": {},
-          "parent_id": "7b23e727dd1845e58c744848e86055d1",
-          "source_partition_id": "2ea531ba6afb41bead884e3858895410",
+          "parent_id": "fea4e2bbde2545e0904745eea31ded69",
+          "source_partition_id": "eadec3d7de2a4df494fcd285d6d8fdcd",
           "content_sha256": "",
           "processed_by": [
             "gen_embeddings",
             "save_records"
           ]
         },
-        "vocabulary.pdf.partition.31.txt.AI.OpenAI.OpenAITextEmbeddingGenerator.__.text_embedding": {
-          "id": "5a0604b4733847f9a29a79a718c0696d",
-          "name": "vocabulary.pdf.partition.31.txt.AI.OpenAI.OpenAITextEmbeddingGenerator.__.text_embedding",
-          "size": 9677,
+        "vocabulary.pdf.partition.31.txt.AI_Powered_Ticketing_and_Support_System.Service.GeminiEmbeddingGenerator.__.text_embedding": {
+          "id": "7dee3af24bc2449d8a0279b7e85d6b48",
+          "name": "vocabulary.pdf.partition.31.txt.AI_Powered_Ticketing_and_Support_System.Service.GeminiEmbeddingGenerator.__.text_embedding",
+          "size": 39357,
           "mime_type": "float[]",
           "artifact_type": "TextEmbeddingVector",
           "partition_number": 31,
           "section_number": 0,
           "tags": {},
-          "parent_id": "7b23e727dd1845e58c744848e86055d1",
-          "source_partition_id": "aac1bad241be48c9a6312fa40a1be7bc",
+          "parent_id": "fea4e2bbde2545e0904745eea31ded69",
+          "source_partition_id": "0b8dbcea4f70494f9ba853641a0efac9",
           "content_sha256": "",
           "processed_by": [
             "gen_embeddings",
             "save_records"
           ]
         },
-        "vocabulary.pdf.partition.32.txt.AI.OpenAI.OpenAITextEmbeddingGenerator.__.text_embedding": {
-          "id": "7b7b65c8ec62489f8810b43ee9ae0b3e",
-          "name": "vocabulary.pdf.partition.32.txt.AI.OpenAI.OpenAITextEmbeddingGenerator.__.text_embedding",
-          "size": 9760,
+        "vocabulary.pdf.partition.32.txt.AI_Powered_Ticketing_and_Support_System.Service.GeminiEmbeddingGenerator.__.text_embedding": {
+          "id": "360ba55633054f37a5f765f3c8ca59f8",
+          "name": "vocabulary.pdf.partition.32.txt.AI_Powered_Ticketing_and_Support_System.Service.GeminiEmbeddingGenerator.__.text_embedding",
+          "size": 39383,
           "mime_type": "float[]",
           "artifact_type": "TextEmbeddingVector",
           "partition_number": 32,
           "section_number": 0,
           "tags": {},
-          "parent_id": "7b23e727dd1845e58c744848e86055d1",
-          "source_partition_id": "a4953cdc9f264965a07130d2d8abe129",
+          "parent_id": "fea4e2bbde2545e0904745eea31ded69",
+          "source_partition_id": "96141fe93aef40b995c62cd0c7d4c2e5",
           "content_sha256": "",
           "processed_by": [
             "gen_embeddings",
             "save_records"
           ]
         },
-        "vocabulary.pdf.partition.33.txt.AI.OpenAI.OpenAITextEmbeddingGenerator.__.text_embedding": {
-          "id": "2b5fca3e8f3e4d0d8bd9bf43dbe20c83",
-          "name": "vocabulary.pdf.partition.33.txt.AI.OpenAI.OpenAITextEmbeddingGenerator.__.text_embedding",
-          "size": 9699,
+        "vocabulary.pdf.partition.33.txt.AI_Powered_Ticketing_and_Support_System.Service.GeminiEmbeddingGenerator.__.text_embedding": {
+          "id": "a70c71bbe71f4fd2846f53ed2553be18",
+          "name": "vocabulary.pdf.partition.33.txt.AI_Powered_Ticketing_and_Support_System.Service.GeminiEmbeddingGenerator.__.text_embedding",
+          "size": 39407,
           "mime_type": "float[]",
           "artifact_type": "TextEmbeddingVector",
           "partition_number": 33,
           "section_number": 0,
           "tags": {},
-          "parent_id": "7b23e727dd1845e58c744848e86055d1",
-          "source_partition_id": "6f7444d28c7a456eb5da6573174fdb40",
+          "parent_id": "fea4e2bbde2545e0904745eea31ded69",
+          "source_partition_id": "f8dcac4c82d444719244c858a7657497",
           "content_sha256": "",
           "processed_by": [
             "gen_embeddings",
             "save_records"
           ]
         },
-        "vocabulary.pdf.partition.34.txt.AI.OpenAI.OpenAITextEmbeddingGenerator.__.text_embedding": {
-          "id": "2cbfaf5149da4f8e9ac30daa02fff6e7",
-          "name": "vocabulary.pdf.partition.34.txt.AI.OpenAI.OpenAITextEmbeddingGenerator.__.text_embedding",
-          "size": 9702,
+        "vocabulary.pdf.partition.34.txt.AI_Powered_Ticketing_and_Support_System.Service.GeminiEmbeddingGenerator.__.text_embedding": {
+          "id": "0411395b236a451e869f8739589624f7",
+          "name": "vocabulary.pdf.partition.34.txt.AI_Powered_Ticketing_and_Support_System.Service.GeminiEmbeddingGenerator.__.text_embedding",
+          "size": 39403,
           "mime_type": "float[]",
           "artifact_type": "TextEmbeddingVector",
           "partition_number": 34,
           "section_number": 0,
           "tags": {},
-          "parent_id": "7b23e727dd1845e58c744848e86055d1",
-          "source_partition_id": "ff805a2e8c404d7c9c82afc71408ee72",
+          "parent_id": "fea4e2bbde2545e0904745eea31ded69",
+          "source_partition_id": "d8e5faa1edf24f67a82886b3c297394c",
           "content_sha256": "",
           "processed_by": [
             "gen_embeddings",
             "save_records"
           ]
         },
-        "vocabulary.pdf.partition.35.txt.AI.OpenAI.OpenAITextEmbeddingGenerator.__.text_embedding": {
-          "id": "23139d73a91e4f47a3f6feaed1fb0c64",
-          "name": "vocabulary.pdf.partition.35.txt.AI.OpenAI.OpenAITextEmbeddingGenerator.__.text_embedding",
-          "size": 9660,
+        "vocabulary.pdf.partition.35.txt.AI_Powered_Ticketing_and_Support_System.Service.GeminiEmbeddingGenerator.__.text_embedding": {
+          "id": "896bef35f18a4ea2b9e96ef009465fc6",
+          "name": "vocabulary.pdf.partition.35.txt.AI_Powered_Ticketing_and_Support_System.Service.GeminiEmbeddingGenerator.__.text_embedding",
+          "size": 39398,
           "mime_type": "float[]",
           "artifact_type": "TextEmbeddingVector",
           "partition_number": 35,
           "section_number": 0,
           "tags": {},
-          "parent_id": "7b23e727dd1845e58c744848e86055d1",
-          "source_partition_id": "8a033ae1d86c4a818e8fe7e630c9f569",
+          "parent_id": "fea4e2bbde2545e0904745eea31ded69",
+          "source_partition_id": "64bda9ae51fc4e229e9717de41df8420",
           "content_sha256": "",
           "processed_by": [
             "gen_embeddings",
