@@ -24,7 +24,7 @@ namespace AI_Powered_Ticketing_and_Support_System.Controllers
         }
 
         [HttpPost("upload-internal")]
-        public async Task<IActionResult> UploadInternal([FromBody]string name, CancellationToken ct )
+        public async Task<IActionResult> UploadInternal( CancellationToken ct )
         {
             // 1. Use the exact filename from your Documents folder
             string filePath = Path.Combine(_env.ContentRootPath, "Documents", "vocabulary.pdf");
@@ -60,25 +60,35 @@ namespace AI_Powered_Ticketing_and_Support_System.Controllers
             if (string.IsNullOrWhiteSpace(request.Question))
                 return BadRequest("Question is required.");
 
-            var answer = await _memory.AskAsync(
-                request.Question,
-                minRelevance: 0.5,
-                cancellationToken: ct);
-
-            return Ok(new
+            try
             {
-                answer = answer.Result,
-                sources = answer.RelevantSources.Select(s => new
+                var answer = await _memory.AskAsync(
+                    request.Question,
+                    minRelevance: 0.5,
+                    cancellationToken: ct);
+
+
+                return Ok(new
                 {
-                    s.SourceName,
-                    chunks = s.Partitions.Select(p => new
+                    answer = answer.Result,
+                    sources = answer.RelevantSources.Select(s => new
                     {
-                        p.PartitionNumber,
-                        p.Relevance,
-                        preview = p.Text.Length > 200 ? p.Text[..200] : p.Text
+                        s.SourceName,
+                        chunks = s.Partitions.Select(p => new
+                        {
+                            p.PartitionNumber,
+                            p.Relevance,
+                            preview = p.Text.Length > 200 ? p.Text[..200] : p.Text
+                        })
                     })
-                })
-            });
+                });
+            }
+            catch (System.ClientModel.ClientResultException ex)
+            {
+                var raw = ex.GetRawResponse();
+                Console.WriteLine(raw?.Content.ToString());
+                throw;// OpenAI's JSON error with "message" and "param"
+            }
         }
 
         // ---------- DELETE ----------

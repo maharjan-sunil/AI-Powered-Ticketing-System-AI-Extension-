@@ -18,14 +18,14 @@ namespace AI_Powered_Ticketing_and_Support_System.Controllers
         public async Task<ActionResult<TriageReport>> Triage([FromBody] TriageRequest request)
         {
 
-            if (string.IsNullOrWhiteSpace(request.TicketMessage))
+            if (string.IsNullOrWhiteSpace(request.ticketMessage))
             {
                 return BadRequest("The ticket message payload cannot be empty.");
             }
 
             try
             {
-                TriageReport triageModel = await _aiService.ExtractTriageDetailsWithFunctionCallingAsync(request.TicketMessage);
+                TriageReport triageModel = await _aiService.ExtractTriageDetailsWithFunctionCallingAsync(request.ticketMessage);
                 return Ok(triageModel);
             }
             catch (Exception ex)
@@ -36,5 +36,5 @@ namespace AI_Powered_Ticketing_and_Support_System.Controllers
             }
         }
     }
-    public record TriageRequest(string TicketMessage);
+    public record TriageRequest(string ticketMessage);
 }

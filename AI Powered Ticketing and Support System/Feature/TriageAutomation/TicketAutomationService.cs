@@ -55,7 +55,7 @@ namespace AI_Powered_Ticketing_and_Support_System.Feature.TriageAutomation
                                         Do not return descriptions or alternative names.
                                         For example, a login issue must use AccountAccess.
 
-                                        Urgency must be an integer from 1 to 5.
+                                        Urgency must be an integer from 0 to 4.
                                         You must call SubmitTriageReport.
                                         """;
                 var userPrompt = $"User Ticket Message: \"{userMessage}\"";
