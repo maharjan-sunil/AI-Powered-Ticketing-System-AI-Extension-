@@ -1,4 +1,7 @@
 using AI_Powered_Ticketing_and_Support_System.Feature.TriageAutomation;
+using AI_Powered_Ticketing_and_Support_System.Infrastructure.Kafka;
+using AI_Powered_Ticketing_and_Support_System.Infrastructure.Kafka.Consumers;
+using AI_Powered_Ticketing_and_Support_System.Infrastructure.Kafka.Producers;
 using AI_Powered_Ticketing_and_Support_System.Service;
 using Google.GenAI;
 using Microsoft.AspNetCore.Http.Features;
@@ -99,8 +102,20 @@ var memory = new KernelMemoryBuilder()
 //Inject IKernelMemory into controllers
 builder.Services.AddSingleton<IKernelMemory>(memory);
 
+builder.Services.AddScoped<ITicketTriageProcessor, TicketTriageProcessor>();
+
+builder.Services.Configure<KafkaSettings>(
+    builder.Configuration.GetSection("Kafka"));
+
 // Inject for Traige Automation Service
 builder.Services.AddScoped<TicketAutomationService>();
+builder.Services.AddScoped<TicketTriageProducer>();
+//kafka background service
+builder.Services.AddHostedService<TicketCreatedConsumer>();
+
+
+
+
 
 // Allow uploads up to 50 MB
 builder.Services.Configure<FormOptions>(o => o.MultipartBodyLengthLimit = 50_000_000);
